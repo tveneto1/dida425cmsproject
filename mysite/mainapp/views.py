@@ -10,6 +10,10 @@ def upload_list(request):
     posts = Post.objects.all()
     return render(request, 'mainapp/upload.html', {'object_list': posts})
 
+def display(request): #Get the most recent uploaded image (eventually make this into featured list, choose what to display)
+    latest_post = Post.objects.order_by('-id').first()
+    return render(request, 'mainapp/display.html', {'post': latest_post})
+
 @login_required
 def upload_image(request):
     if not request.user.is_staff:  # Only allow admin/staff
