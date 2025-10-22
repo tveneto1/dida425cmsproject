@@ -1,10 +1,9 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIDA Display</title>
+    <title>Display</title>
     <style>
         * {
             margin: 0;
@@ -21,9 +20,24 @@
             height: 100vh;
             object-fit: cover;
         }
+        
+        .no-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 24px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
-    <img src="{% static 'mainapp/images/test.png' %}" alt="Background" class="fullscreen-image">
+    {% if post %}
+        <img src="{{ post.cover.url }}" alt="{{ post.title }}" class="fullscreen-image">
+    {% else %}
+        <div class="no-image">
+            No images uploaded yet.
+        </div>
+    {% endif %}
 </body>
 </html>
