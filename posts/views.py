@@ -14,10 +14,10 @@ def display(request): #Get the most recent uploaded image (eventually make this 
     latest_post = Post.objects.order_by('-id').first() #ID??
     return render(request, 'display.html', {'post': latest_post})
 
-
-#UPDATE --> need to pass along images to the view pages
+#UPDATED -> passes along images to template so can view uploaded
 def all_images_view(request):
-    return render (request, "uploaded_images.html")
+    posts = Post.objects.all().order_by('-id')  #get all posts, newest first
+    return render(request, "uploaded_images.html", {'object_list': posts})
 
 
 #two funcs below are doing same thing???
