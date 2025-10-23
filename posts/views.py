@@ -14,7 +14,7 @@ class HomePageView(ListView):
 
 def display(request): #Get the most recent uploaded image (eventually make this into featured list, choose what to display)
     latest_post = Post.objects.order_by('-id').first()
-    return render(request, 'posts/display.html', {'post': latest_post})
+    return render(request, 'display.html', {'post': latest_post})
 
 
 class CreatePostView(CreateView):  
