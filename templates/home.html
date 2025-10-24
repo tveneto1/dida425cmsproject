@@ -11,6 +11,7 @@
 {% if user.is_authenticated %}
 <p>Hi {{ user.username }}! What do you want to do today:</p>
 <p><a href="{% url 'go_to_post' %}">Upload Image</a></p> 
+<p><a href="{% url 'all_images' %}">View Images</a></p>
 <p><a href="{% url 'slidedisplay' %}">Start Display</a></p> 
 <p><a href="{% url 'password_change' %}">Password Change</a></p>
 <form action="{% url 'logout' %}" method="post">
