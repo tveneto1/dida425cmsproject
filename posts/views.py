@@ -21,6 +21,7 @@ def all_images_view(request):
 
 
 #two funcs below are doing same thing???
+#yes but if we get rid of this one things go wrong so we're keeping it
 class CreatePostView(CreateView):  
     model = Post
     form_class = ImageUploadForm
@@ -42,3 +43,11 @@ def upload_image(request):
         form = ImageUploadForm()  # Fixed: Create empty form
     
     return render(request, 'post.html', {'form': form})  # Fixed: Pass form to template
+
+
+#deleting images
+def delete_image(request, pk):
+   # if request.method == "POST": #trying without conditional
+    post = Post.objects.filter(id=pk) 
+    post.delete() 
+    return redirect('all_images')

@@ -7,16 +7,35 @@
     <h1>All Images</h1>
     
     <a href="{% url 'go_to_post' %}" class="upload-btn">Upload New Image</a>
-    
+    <br>
+    <br>
     {% if object_list %}
-        <div class="post-grid">
-            {% for post in object_list %}
-            <div class="post">
-                <img src="{{ post.cover.url }}" alt="{{ post.title }}">
-                <h2>{{ post.title }}</h2>
-            </div>
-            {% endfor %}
-        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Description</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for post in object_list %}
+
+                    <tr>
+                        <td><img src="{{ post.cover.url }}" alt="{{ post.title }}", width="250"></td>
+                        <td>{{ post.title }}</td>
+                        <td><form action="{% url 'delete_image' post.pk %}" method="POST">
+                            {% csrf_token %}
+                            <button type="submit">Delete</button>
+                        </form></td>
+                    </tr>
+
+                {% endfor %}
+            </tbody>
+        </table>
+
     {% else %}
         <p style="text-align: center;">No images yet. Click button above to upload!</p>
     {% endif %}
