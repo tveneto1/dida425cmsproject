@@ -8,19 +8,79 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+</style>
+
 {% if user.is_authenticated %}
-<p>Hi {{ user.username }}! What do you want to do today:</p>
-<p><a href="{% url 'go_to_post' %}">Upload Image</a></p> 
-<p><a href="{% url 'all_images' %}">View Images</a></p>
-<p><a href="{% url 'slidedisplay' %}">Start Display</a></p> 
-<p><a href="{% url 'password_change' %}">Password Change</a></p>
-<form action="{% url 'logout' %}" method="post">
-  {% csrf_token %}
-  <button type="submit">Log Out</button>
-</form>
+<div style="max-width: 600px; margin: 40px auto; padding: 20px; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 30px;">
+    <div>
+      <h1 style="margin: 0 0 5px 0; color: #005A43; font-weight: 700;">Welcome back, {{ user.username }}!</h1>
+      <p style="color: #666; margin: 0; font-weight: 400;">What would you like to do today?</p>
+    </div>
+  </div>
+  
+  <div style="display: grid; gap: 15px;">
+    <a href="{% url 'go_to_post' %}" style="display: block; padding: 20px; background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; text-decoration: none; color: #212529; transition: all 0.2s;" onmouseover="this.style.background='#e8f5f1'; this.style.borderColor='#005A43';" onmouseout="this.style.background='#f8f9fa'; this.style.borderColor='#dee2e6';">
+      <strong style="display: block; margin-bottom: 5px; color: #005A43; font-weight: 600;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 8px;">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="17 8 12 3 7 8"></polyline>
+          <line x1="12" y1="3" x2="12" y2="15"></line>
+        </svg>
+        Upload Image
+      </strong>
+      <small style="color: #6c757d; font-weight: 400;">Add new photos to your gallery </small>
+    </a>
+    
+    <a href="{% url 'all_images' %}" style="display: block; padding: 20px; background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; text-decoration: none; color: #212529; transition: all 0.2s;" onmouseover="this.style.background='#e8f5f1'; this.style.borderColor='#005A43';" onmouseout="this.style.background='#f8f9fa'; this.style.borderColor='#dee2e6';">
+      <strong style="display: block; margin-bottom: 5px; color: #005A43; font-weight: 600;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 8px;">
+          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+          <circle cx="8.5" cy="8.5" r="1.5"></circle>
+          <polyline points="21 15 16 10 5 21"></polyline>
+        </svg>
+        View Images
+      </strong>
+      <small style="color: #6c757d; font-weight: 400;">Browse your image gallery</small>
+    </a>
+    
+    <a href="{% url 'slidedisplay' %}" style="display: block; padding: 20px; background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; text-decoration: none; color: #212529; transition: all 0.2s;" onmouseover="this.style.background='#e8f5f1'; this.style.borderColor='#005A43';" onmouseout="this.style.background='#f8f9fa'; this.style.borderColor='#dee2e6';">
+      <strong style="display: block; margin-bottom: 5px; color: #005A43; font-weight: 600;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 8px;">
+          <polygon points="5 3 19 12 5 21 5 3"></polygon>
+        </svg>
+        Start Display
+      </strong>
+      <small style="color: #6c757d; font-weight: 400;">View slideshow presentation</small>
+    </a>
+    
+    <a href="{% url 'password_change' %}" style="display: block; padding: 20px; background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; text-decoration: none; color: #212529; transition: all 0.2s;" onmouseover="this.style.background='#e8f5f1'; this.style.borderColor='#005A43';" onmouseout="this.style.background='#f8f9fa'; this.style.borderColor='#dee2e6';">
+      <strong style="display: block; margin-bottom: 5px; color: #005A43; font-weight: 600;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 8px;">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+        </svg>
+        Password Change
+      </strong>
+      <small style="color: #6c757d; font-weight: 400;">Update your account security</small>
+    </a>
+  </div>
+  
+  <form action="{% url 'logout' %}" method="post" style="margin-top: 30px; text-align: center;">
+    {% csrf_token %}
+    <button type="submit" style="padding: 10px 24px; background: #005A43; border: none; border-radius: 6px; color: white; cursor: pointer; transition: all 0.2s; font-family: 'Inter', sans-serif; font-weight: 600;" onmouseover="this.style.background='#004532';" onmouseout="this.style.background='#005A43';">Log Out</button>
+  </form>
+</div>
 {% else %}
-<p>You are not logged in</p>
-<p><a href="{% url 'password_reset' %}">Password Reset</a></p>
-<p><a href="{% url 'login' %}">Log In</a></p>
+<div style="max-width: 400px; margin: 60px auto; padding: 40px; background: #f8f9fa; border-radius: 12px; text-align: center; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <h2 style="margin-bottom: 20px; color: #005A43; font-weight: 700;">Welcome!</h2>
+  <p style="color: #666; margin-bottom: 30px; font-weight: 400;">Please log in to continue</p>
+  <div style="display: flex; gap: 15px; justify-content: center;">
+    <a href="{% url 'login' %}" style="padding: 12px 24px; background: #005A43; color: white; text-decoration: none; border-radius: 6px; transition: background 0.2s; font-weight: 600;" onmouseover="this.style.background='#004532';" onmouseout="this.style.background='#005A43';">Log In</a>
+    <a href="{% url 'password_reset' %}" style="padding: 12px 24px; background: white; border: 1px solid #dee2e6; color: #212529; text-decoration: none; border-radius: 6px; transition: all 0.2s; font-weight: 400;" onmouseover="this.style.background='#f8f9fa';" onmouseout="this.style.background='white';">Reset Password</a>
+  </div>
+</div>
 {% endif %}
 {% endblock %}
