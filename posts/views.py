@@ -22,11 +22,11 @@ def all_images_view(request):
 
 #two funcs below are doing same thing???
 #yes but if we get rid of this one things go wrong so we're keeping it
-class CreatePostView(CreateView):  
-    model = Post
-    form_class = ImageUploadForm
-    template_name = "post.html"
-    success_url = reverse_lazy("home") #UNCOMMENT, needs to know where to go after successful
+#class CreatePostView(CreateView):  
+ #   model = Post
+  #  form_class = ImageUploadForm
+   # template_name = "post.html"
+#    success_url = reverse_lazy("home") #UNCOMMENT, needs to know where to go after successful
 
 
 #UPDATED
@@ -47,7 +47,7 @@ def upload_image(request):
 
 #deleting images
 def delete_image(request, pk):
-   # if request.method == "POST": #trying without conditional
-    post = Post.objects.filter(id=pk) 
-    post.delete() 
+    if request.method == "POST": #trying without conditional
+        post = Post.objects.filter(id=pk) 
+        post.delete() 
     return redirect('all_images')

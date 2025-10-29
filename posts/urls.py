@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import HomePageView, CreatePostView, upload_image, all_images_view, display, delete_image
+from .views import HomePageView, upload_image, all_images_view, display, delete_image
 
 from . import views
 
