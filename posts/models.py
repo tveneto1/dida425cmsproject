@@ -11,7 +11,6 @@ class Post(models.Model):
 
 #overriding built in model delete
 #means that the deleted file also gets deleted from images folder within project -> but it isnt
-#try w/o *args
     def delete(self, *args, **kwargs):
         if self.cover:
             self.cover.delete(save=False)
