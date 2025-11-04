@@ -9,5 +9,5 @@ urlpatterns = [
     path("post/", views.upload_image, name="go_to_post"),
     path("allimages/", views.all_images_view, name="all_images"),
     path("delete_image/<str:pk>/", views.delete_image, name="delete_image"), #got this from tutorial, does not work :(
-    path("displaypath/", views.display, name="slidedisplay"),
+    path("slidedisplay/", views.slidedisplay, name="slidedisplay"),
 ]
