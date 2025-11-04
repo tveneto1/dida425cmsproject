@@ -51,3 +51,8 @@ def delete_image(request, pk):
         post = Post.objects.filter(id=pk) 
         post.delete() 
     return redirect('all_images')
+
+#function to make uploaded images show up on slideshow display
+def slidedisplay(request):
+    posts = Post.objects.all().order_by('id')  #gets all posts for slideshow
+    return render(request, 'display.html', {'posts': posts})
