@@ -5,6 +5,8 @@ This project is a **Content Management System (CMS)** built with **Django**.
 It allows **administrators** to manage users and permissions, while **content editors** can upload and manage slides that appear on the display interface.  
 The system provides a secure and efficient way to handle digital display content for multiple users.
 
+**Note:** this project is still in development, so parts of this file are subject to change.
+
 
 
 ##  Features
