@@ -1,0 +1,1192 @@
+[
+    {
+        "category": "Administrative",
+        "title": "Eduroam Wi-Fi update",
+        "body": "As required by the Wi-Fi certificate vendor, ITS made an important update to the eduroam Wi-Fi network on May 29, 2025. In order to minimize service interruption, an additional one-time step is required by all users. While this step will install a new security certificate on your device, there will be no visible difference in Wi-Fi functionality. The new security certificate will reflect a required change that was made end of the spring semester in the Wi-Fi certificate vendor's name.\nTo stay connected to Eduroam (campus Wi-Fi) without issues, run the latest version of JoinNow on your devices. This will get your device ready with the new configuration. If you do not complete this, you may not be able to connect to the eduroam network. If you connect on multiple devices (e.g., your laptop, your phone, etc.) this will need to be done on each device. This utility only needs to be run on Wi-Fi-connected desktops, laptops and mobile devices, but does not need to be run on wired desktops.\nTo run JoinNow, download and run the utility here at the link below or go to\nwireless.binghamton.edu\n.\nA few notes: You will need your Binghamton University account password to log in. On Windows and Mac computers, a file will be downloaded that you will need to click on to run. Follow the standard eduroam onboarding procedure at:\nhttps://wireless.binghamton.edu\nQuestions? Contact the ITS Help Desk at 607-777-6420.",
+        "links": [
+            "http://wireless.binghamton.edu",
+            "https://wireless.binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nHelp Desk\nor visit\nhttps://cloud.securew2.com/public/54174/SectigoMigrate/",
+            "links": [
+                "mailto:helpdesk@binghamton.edu",
+                "https://cloud.securew2.com/public/54174/SectigoMigrate/"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "OTP and phishing scams",
+        "body": "Never give your One-Time Password (OTP) to anyone over the phone, no matter who they claim to be. A legitimate institution, like your bank or Binghamton University, will never call you and ask for your OTP. They already have access to the information they need and use OTPs as a protective measure for you, not for them. Scammers often use sophisticated tactics to create a sense of urgency, pressuring you to share your information. Always remember to hang up and, if you're concerned, contact the institution directly using a number you know is legitimate.\nAny issues or questions can be directed to the Help Desk 607-777-6420.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nHelp Desk\nor visit\nhttps://www.binghamton.edu/its/about/teams/information-security/phishing/index.html",
+            "links": [
+                "mailto:helpdesk@binghamton.edu",
+                "https://www.binghamton.edu/its/about/teams/information-security/phishing/index.html"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "Provost’s International Internship Support for Undergraduate Students (winter/spring break cycle)",
+        "body": "Faculty members whose research occurs in an international setting are invited to apply to receive funding that will fully cover the costs that undergraduate students incur while assisting the faculty member with the faculty member’s research project. Applications for winter and spring break 2026 are now being considered, with preference given to submissions received by Sept. 15, 2025.\nMore information about the specific requirements for this initiative and a link to the online application can be found on the Faculty Resources and Information page of the provost’s website at the link below. After reviewing this information, if faculty have further questions about the program details and/or the application, they may email Kevin Murphy, at\nkamurphy@binghamton.edu\n, and cc Patricia Bello (\npbello@binghamton.edu\n).",
+        "links": [
+            "mailto:kamurphy@binghamton.edu",
+            "mailto:pbello@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nKevin Murphy\nor visit\nhttps://www.binghamton.edu/academics/provost/faculty-resources/",
+            "links": [
+                "mailto:kamurphy@binghamton.edu",
+                "https://www.binghamton.edu/academics/provost/faculty-resources/"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "Emergency Response Team accepting new members",
+        "body": "Binghamton University's Emergency Response Team (ERT) is a group of volunteer employees trained to respond to confined space rescue situations and other technical rescues. Team members train every second week and must be eligible to wear a respirator and join the University's respiratory protection program. Anyone interested in learning more about the team and joining this skilled group of employees should contact Dave Hubeny at\ndhubeny@binghamton.edu\n. No prior experience is necessary, and supervisor approval is required.",
+        "links": [
+            "mailto:dhubeny@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nDave Hubeny",
+            "links": [
+                "mailto:dhubeny@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "University Food Policy update",
+        "body": "Effective immediately, \"Management Policy #504 - Food Policy\" has been updated. All campus entities, students, faculty and staff are subject to the requirements associated with this policy when serving food and/or beverages on campus.\nBinghamton University is committed to ensuring the safety, quality and consistency of all food and beverages served on campus. As part of this commitment, the University maintains an exclusive contractual relationship with Sodexo. All food and beverages served on campus must be provided through Binghamton University Dining Services (BUDS). Exemptions may be made for events with food costs under BUDS' first right of refusal threshold, or in rare cases when BUDS determines that they are unable to meet a requested service or specialty foods are necessary.\nKey updates to the policy include an increase of the threshold for BUDS' first right of refusal to $300, a new Pre-Authorized Off-Campus Food Provider List for approved exemptions and an online Food Policy Portal replacing paper submission processes. For more details, visit the website link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nAuxiliary Services\nor visit\nhttps://www.binghamton.edu/services/auxiliary/dining/",
+            "links": [
+                "mailto:auxserv@binghamton.edu",
+                "https://www.binghamton.edu/services/auxiliary/dining/"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "VIDEO: A Final Thought from President Harvey Stenger",
+        "body": "After filming an impressive 55 videos during his presidency, Harvey Stenger has one final message — plus a few moments you didn’t see coming.\nClick the link below to watch!",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nDateline\nor visit\nhttps://www.youtube.com/watch?v=caX_bgPBSO8",
+            "links": [
+                "mailto:dateline@binghamton.edu",
+                "https://www.youtube.com/watch?v=caX_bgPBSO8"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "Emergency locking mechanism installation project",
+        "body": "Binghamton University has initiated a campus-wide project to standardize emergency locking mechanisms on classroom doors. This multi-phase initiative is designed to enhance safety and security across academic spaces.\nThe first phase of the project began this summer, focusing on classrooms in the Classroom Wing and Fine Arts Building. Classroom doors have been outfitted with interior door handles that include a red emergency locking button. In the event of an emergency, the red button can be pushed to immediately secure the door from inside the room. To exit or unlock the door, simply turn the interior handle, which will release the lock.\nThese buttons are intended to be used only in emergencies to secure a classroom door.\nThis important project will continue over the next two semesters to outfit all classrooms across campus with similar locking mechanisms.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nJoAnn Navarro",
+            "links": [
+                "mailto:jnavarro@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "2025 UUP salary increase",
+        "body": "The 2022-26 Agreement between the State of New York and United University Professions (UUP) provides for a salary increase of 3%.\nEligible faculty with a 12-month obligation and professional staff are eligible for the 3% across-the-board increase to base salary, provided they are in pay status on both June 30, 2025, and July 3, 2025. The salary increase will be processed by the Office of the State Comptroller (OSC) in paychecks dated July 30, 2025, and will be based on the June 30, 2025 salary.\nFaculty with a 10-month obligation in pay status on June 30, 2025, Aug. 25, 2025 and Sept. 1, 2025, with at least one semester of service in the previous academic year, will receive the 3% increase to base pay effective Aug. 28, 2025, in the paycheck dated Sept. 24, 2025.\nSemester-based adjunct faculty with at least one semester of service in the prior academic year and who are in pay status on both April 30, 2025, and Aug. 14, 2025, will receive the increase in the paycheck dated Sept. 10, 2025.  Adjuncts not in pay status will receive the payment if they are reemployed for one semester within the one-year period commencing July 1, 2025.\nFor further information or questions, contact Taliba Abdussalaam at 607-777-6284.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nTaliba Abdussalaam",
+            "links": [
+                "mailto:tabduss1@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "Nicole Alfarano honored with STAR Award",
+        "body": "Nicole Alfarano, operations and finance manager in the Department of Philosophy, received the STAR Award this week. The award recognizes outstanding service by faculty and staff members within the Binghamton University community.\nColleagues and students in the department, including Jonathan Hagofsky, Rebecca Harrison, Aakanksha Mansukhani, Tony Reeves and Melissa Sumpter, nominated Alfarano. They said Alfarano is consistently friendly, proactive and effective, whether helping to nurse an office plant back to health or managing various campus systems. Harrison wrote: “One thing I really admire about Nicole is her commitment to making our departmental processes simpler, more efficient and more accessible. It would be easy to take this work for granted — as we tend not to notice when things are running smoothly — but I know it takes a huge amount of careful, attentive work on Nicole’s part for our department to run as effectively as it does.”\nAlfarano received a letter from President Stenger, a check for $100, a special coffee mug and a STAR pin. For more information about the award or to submit a nomination for a co-worker, visit the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nRachel Coker\nor visit\nhttps://www.binghamton.edu/offices/human-resources/employees/star-award.html",
+            "links": [
+                "mailto:rcoker@binghamton.edu",
+                "https://www.binghamton.edu/offices/human-resources/employees/star-award.html"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "Next steps in the Binghamton University Presidential Search",
+        "body": "From July 6–14, 2025, Binghamton University welcomed six candidates to the campus for confidential interviews with the Search Committee and seven Representational Groups, as outlined in the June 16 update. The hot, steamy week in July did not quell the spirited engagement of our diverse groups of faculty, staff, students, administrators, alums, community leaders and other supporters of Binghamton in enthusiastically welcoming the candidates and sharing our proud “Binghamton Story.”\nIn advance of the final meeting of the Search Committee, members of the Council not serving on the Search Committee were invited to attend in order to hear the discussions regarding the relative merits of each semi-finalist. That discourse was aided by the hundreds of online feedback surveys from the representational groups; a report from the Faculty Senate Executive Committee; and a summary of the relative strengths and weaknesses of each candidate. After a robust discussion, the Search Committee submitted to the Council a list of five “acceptable” candidates to the Council for consideration; one semi-finalist withdrew their application. Before the meeting concluded, a “straw poll” was taken which resulted in resounding consensus on the part of the Search Committee in favor of three candidates.\nAt a Special Meeting of the Binghamton University Council, members carefully weighed the merits of each semi-finalist and unanimously recommended three unranked, consensus finalists to SUNY Chancellor King and the SUNY Board of Trustees for final consideration. The Council expressed confidence that each finalist will uphold our core values and aspirations while guiding Binghamton University into our next chapter of growth, innovation and excellence.\nThe next phase is currently underway:\n- Final Interviews: The three finalists have been interviewed by Chancellor King and his senior staff and will soon be interviewed by the SUNY Board of Trustees.\n- Final Decision: The SUNY Board of Trustees is vested with the authority to appoint the next president and is expected to make a final selection in early August.\nStay tuned for further updates.\nKathryn Grant Madigan, Esq., Search Committee Chair\nBinghamton University Council Chair",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nDateline",
+            "links": [
+                "mailto:dateline@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "Binghamton University announces Anne D’Alleva as eighth president",
+        "body": "Anne D’Alleva was selected as the next president of Binghamton University in a vote by the State University of New York Board of Trustees on Tuesday, Aug. 19. D’Alleva, currently the provost and executive vice president for academic affairs at the University of Connecticut, is scheduled to begin her duties on Nov. 1.\n“I am deeply honored to accept the position of president of Binghamton University and to join the distinguished SUNY system,” D’Alleva said. “Binghamton has a remarkable tradition of academic excellence, research innovation and community engagement, and I am inspired by the dedication of its faculty, staff and students. I look forward to working collaboratively with campus and community partners to build research strength, expand opportunities for students, enhance alumni involvement and advance the University’s impact in New York, the nation and the world.”\nD’Alleva is an accomplished academic leader who has focused on advancing student success and has engaged in multidisciplinary and collaborative efforts to expand UConn’s work in AI and quantum technologies, partner with the state’s tribal nations, and expand academic offerings at the university’s four regional campuses. D’Alleva has led UConn’s academic enterprise, including strategic planning, budgetary management, faculty development and curriculum innovation across the university’s 14 schools and colleges. She leads transformative initiatives that support student success, faculty excellence and institutional impact.\n“Binghamton University is one of the state’s most esteemed research and academic institutions, and I am proud to welcome Dr. Anne D’Alleva as its next President,” said SUNY Chancellor John B. King Jr. “After a tremendously successful era under President Stenger, where Binghamton gained a strong academic reputation and saw significant enrollment and research growth, I am confident that Dr. D’Alleva will build on that progress and bring Binghamton University to even greater heights.”\nThe first woman to serve as provost in UConn’s history, D’Alleva had previously served as dean of the School of Fine Arts since 2015 and first joined the UConn faculty as a joint appointment to art history and women’s, gender and sexuality studies in 1999. She received her B.A. in art history from Harvard University, and her M.A. and Ph.D. in art history from Columbia University with a graduate certificate in feminist theory.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nDateline\nor visit\nhttps://www.binghamton.edu/news/story/5721/binghamton-university-announces-anne-dalleva-as-eighth-president/",
+            "links": [
+                "mailto:dateline@binghamton.edu",
+                "https://www.binghamton.edu/news/story/5721/binghamton-university-announces-anne-dalleva-as-eighth-president/"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "Policies on expressive activity",
+        "body": "We open the 2025-26 academic year excited about the future of Binghamton University. We welcome thousands of new students and hundreds of new faculty and staff joining our community for the first time. They will bring new talents, interests and perspectives and join returning colleagues in a learning community unafraid to discover truth and explore solutions to the world’s most pressing problems. Indeed, our values call upon us to “encourage faculty, students and staff to ask unexpected questions, foster open dialogue and develop innovative solutions to important problems.”\nWe also acknowledge that the 2025-26 academic year opens amidst significant polarization related to international and domestic concerns. The purpose of this letter is to provide notice\nand clarity as to how our campus will remain faithful to our values while also maintaining a campus environment that supports the rights of all to pursue learning and discovery free of harassment, disruption and intimidation. The framework of our approach is to support and facilitate ample opportunity for expressive activity and campus dialogue around controversial ideas, while simultaneously establishing firm expectations that all such expressive activity\nmust comport with university policies. Toward that end, we call your attention to the following:\n1. We strongly encourage individuals and groups who plan to use Binghamton University as a site for expressive activity to first review the Reservation Guidelines, contact the University\nUnion Office and the New York State University Police. Our staff wants to assist you in ensuring your activity is successful and safe for all.\n2. Binghamton University, as with all SUNY campuses, are subject to the Rules for the Maintenance of Public Order. Please be on notice that Binghamton University will not hesitate to invoke the Rules and pursue the penalties for violations set forth therein. The\nRules for the Maintenance of Public Order apply not only to students but to faculty, staff, organizations and unaffiliated individuals. We urge you to familiarize yourself with this policy\nbefore planning or engaging in any demonstration or protest, particularly the prohibited behavior listed in section 1.A.\n3. Binghamton University has established Posting and Chalking Policies. Please be on notice that the campus will fully uphold those policies. Students who willfully violate such policies may be referred to the Office of Student Conduct.\n4. Binghamton University has an established policy governing Camping on Campus. Until further notice, we will not entertain exceptions to the policy, meaning the campus will not\npermit any form of “camping” as defined by the policy.\n5. Binghamton University policy also generally governs the Non-Credit Use of Campus Facilities in several other ways, including policies related to tabling, amplified sound and event scheduling. Please consult this policy as well prior to planning or participating in any expressive activity, protest or demonstration.\nAs acknowledged above, we intend not only to uphold our policies but to defend and promote our values. Campus staff and faculty are actively engaged in several initiatives to create contexts that support civil dialogue around controversial ideas within the boundaries of our policies. While not an exhaustive list, we note the following specific examples:\n* Around 1,000 students will complete online and in-person workshops focused on building skills to engage in better conversations through our First Year Experience.\n* Principles of Community: The Division of Diversity, Equity and Inclusion facilitated the adoption of Principles of Community that will be visibly promoted on campus throughout the year.\n* Student Dialogue Ambassadors have received more advanced training on facilitating dialogue and will host conversations within their communities on campus. A new cohort of Ambassadors will be recruited and trained very soon.\n* Civil Dialogue Teaching Fellows: The Fellows program will guide faculty in designing and implementing course content that facilitates student practice of civil dialogue. Fifteen faculty have been accepted into the inaugural cohort.\n* Civil Dialogue Faculty Teaching and Research Grants: These grants will provide funding to support faculty-led teaching and research related to civil dialogue.\nWithout the right to express ideas — especially controversial ideas — education and discovery are limited; dialogue is restricted and our capacity to educate engaged citizens is compromised. For those reasons and our obligations as a public university to respect the First Amendment, we place a high value on freedom of expression, association and assembly. No right, however, is absolute. Binghamton will not permit protest and expression that\ndisrupts the University’s academic mission, interferes with the free expression of others or threatens members of the campus community or campus property. We urge all of you to\naccept your responsibility to maintain a campus environment that respects those boundaries. In that way, we can be a model for other universities to follow through with our willingness to confront difficult questions in a community with the maturity and perspective to respect the rights of all to a supportive learning community.\nDonald Hall\nProvost and Executive Vice President for Academic Affairs\nBrian Rose\nVice President of Student Affairs\nJoAnn Navarro\nVice President for Operations\nKaren Jones\nVice President for Diversity and Inclusion",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nDateline",
+            "links": [
+                "mailto:dateline@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "Title IX Newsletter",
+        "body": "The Title IX Office releases a semesterly newsletter to update the campus community about planned activities, important updates and opportunities for engagement. You can find news and updates for the current semester at the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nKaty Perry\nor visit\nhttps://www.binghamton.edu/services/title-ix/about/newsletter.html",
+            "links": [
+                "mailto:cperry@binghamton.edu",
+                "https://www.binghamton.edu/services/title-ix/about/newsletter.html"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "Policies on expressive activity",
+        "body": "To review the policies on expressive activity, go to:\nhttps://www.binghamton.edu/academics/provost/dateline-message-policies-expressive-activity.html",
+        "links": [
+            "https://www.binghamton.edu/academics/provost/dateline-message-policies-expressive-activity.html"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nDo not reply\nor visit\nhttps://www.binghamton.edu/academics/provost/dateline-message-policies-expressive-activity.html",
+            "links": [
+                "mailto:donotreply@binghamton.edu",
+                "https://www.binghamton.edu/academics/provost/dateline-message-policies-expressive-activity.html"
+            ]
+        }
+    },
+    {
+        "category": "Administrative",
+        "title": "Purchase your parking permit online",
+        "body": "Parking permits are available for purchase online for the upcoming academic year at the Transportation and Parking Services (TAPS) portal at the link below. To log in, you will need your Binghamton University ID and Two Factor Authentication (2FA).\nFirst time permit buyer? You must first register your vehicle online with the University. If you are a returning customer, log in, follow the step-by-step instructions and confirm that your vehicle and contact information is up to date. If you have a current annual or summer permit, you will continue to have access to park on campus through Friday, Aug. 15.  Newly purchased fall or annual permits are immediately active. Fall and annual permits for the 2025-26 academic year will be required as of Monday, Aug. 18.\nGarage and paid lot permits are available for purchase at the Parking Services office, located on the ground level of the Couper Administration Building. If you are signed up for a garage and paid lot permit with payroll deduction, no action is required.\nTAPS utilizes License Plate Recognition (LPR), a plate-recognition technology that virtually associates Binghamton University parking permits with a license plate. Vehicle information can be updated from your online account at any time. See the campus map for parking lot locations. Parking Services will closely monitor lot availability and will update the TAPS website with which parking lots have available space during peak times on campus.\nTAPS updates for the upcoming year can be found on the TAPS website. Questions regarding parking can be directed to\nparking@binghamton.edu\n.",
+        "links": [
+            "mailto:parking@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nParking Services\nor visit\nhttps://binghamton.t2hosted.com/Account/Portal",
+            "links": [
+                "mailto:parking@binghamton.edu",
+                "https://binghamton.t2hosted.com/Account/Portal"
+            ]
+        }
+    },
+    {
+        "category": "Arts and Entertainment",
+        "title": "\"Greg Evans Trio\" faculty recital: Aug. 24",
+        "body": "Join the Music Department in their opening concert of the academic year. The \"Greg Evans Trio\" will perform dynamic jazz combo tunes for drums, bass and piano at 4 p.m. Sunday, Aug. 24, in Casadesus Recital Hall. This concert is free and open to the public.\nClick the link below to view the entire schedule.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nRobert J Manners\nor visit\nhttps://www.binghamton.edu/music/events.html",
+            "links": [
+                "mailto:rmanner1@binghamton.edu",
+                "https://www.binghamton.edu/music/events.html"
+            ]
+        }
+    },
+    {
+        "category": "Arts and Entertainment",
+        "title": "The French Table: Aug. 26",
+        "body": "The French Table will meet this semester from 5:30-7 p.m. on Tuesdays at the Appalachian Dining Hall. Find the group near the big windows that overlook campus in the second-floor dining area. The first meeting will take place on Tuesday, Aug. 26. All are welcome to join for lively conversations in French. Students, faculty, staff and local community members of all levels, backgrounds and goals are invited to the table.\nContact Miller McLean, at\nmmclean2@binghamton.edu\n, with any questions or to be added to the mailing list.",
+        "links": [
+            "mailto:mmclean2@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nMiller McLean",
+            "links": [
+                "mailto:mmclean2@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "Arts and Entertainment",
+        "title": "'In the American Grain: Exploring America through Art, 1919–1946' opens Sept. 4",
+        "body": "Join the Binghamton University Art Museum for the opening of \"In the American Grain: Exploring America through Art, 1919–1946\" from 5-7 p.m. Sept. 4. The exhibition will run through Dec. 6.\nThe two-and-a-half decades between 1919 and 1946 witnessed the development of an American art that sought to capture a country in the midst of transformation. Through celebration and crisis, artists held up a mirror to their fellow citizens, showing their lives, their landscapes and their dreams. \"In the American Grain\" tells this story through artworks addressing a range of themes, drawn from the rich holdings of the Binghamton University Art Museum and Libraries, the Roberson Museum and Science Center and the Art Bridges Collection. In particular, the exhibition acknowledges the generosity of Gil and Deborah Williams, whose donations to the Art Museum are extensively featured here. Together, they reveal how history shaped art during these years, and how artists themselves responded to history in the making. This exhibition is curated by Tom McDonough, professor of art history.\nSupport for this project is provided by Art Bridges.\nAlso opening in the Museum’s Lower Galleries are three exhibitions curated by students: \"Superposition: Examining Boundaries in East Asian Religious Art,\" curated by Kate Langsdorf ’25; \"The Visual Language of Grief,\" curated by Molly Rudden ’25; and \"Destabilizing “the Brain”: Imagining Binghamton University,\" curated by Bassie Chin ’26.\nFor details on upcoming programming, see the Art Museum's  “Events” page and social media. All events are free and open to the public.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nJess Petrylak\nor visit\nhttps://www.binghamton.edu/art-museum/",
+            "links": [
+                "mailto:jpetrylak@binghamton.edu",
+                "https://www.binghamton.edu/art-museum/"
+            ]
+        }
+    },
+    {
+        "category": "Arts and Entertainment",
+        "title": "Eleventh Hour Literary seeking submissions",
+        "body": "Eleventh Hour Literary, a biannual journal funded by the President's Office and sponsored by the Professional Staff Senate, is currently seeking submissions for poetry and prose. Unlike many journals, work from anyone will be accepted, but only pieces that have gone through rejections and been subsequently revised will be featured. The journal’s editorial mission is to create a community of writers who uplift each other in their perseverance.\nIn this cycle, Eleventh Hour Literary is also seeking student submissions of visual art. Share this news with students: their artwork could be featured on the cover and receive a prize of $50, thanks to Binghamton University's School of the Arts!\nSubmit a piece today at the link below!",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nEleventh Hour Literary\nor visit\nhttps://eleventhhourliterary.org",
+            "links": [
+                "mailto:eleventhhourliterary@binghamton.edu",
+                "https://eleventhhourliterary.org"
+            ]
+        }
+    },
+    {
+        "category": "Arts and Entertainment",
+        "title": "2025-26 Music Department concert season",
+        "body": "The Binghamton University Music Department is pleased to announce its 2025-26 concert season, a series of performances celebrating music excellence through beloved classics and exciting new works.\nThe season features more than 65 concerts, operas, guest artists and faculty showcases, so university students and community members can explore music that spans centuries, styles and cultures.\nThe season opens on Sunday, Aug. 24, with The Greg Evans Trio in Casadesus Recital Hall with an eclectic mix of jazz tunes. Other fall semester highlights will include a celebration of Latin American Art Song with Brenda Iglesias, professor of voice and contralto on Saturday, Sept. 13; a residency with N.Y. Voices collaborating with the university choirs on Sunday, Oct. 5; the Children’s Opera: \"Sid the Serpent Who Wanted to Sing\", on Sunday, Nov. 16; and Harpur Jazz Week with guitarist Gabe Condon, on Thursday, Nov. 20.\nThe spring semester is packed with even more outstanding performances. Some highlights include: the spring opera, \"Postcard From Morocco\"; artists-in-residence, HUB New Music and the Binghamton University Symphony Orchestra, featuring a special guest.\nAs always, the department has outstanding ensemble performances to look forward to in both semesters. Audiences can come and see concerts with the University Wind Symphony; the Binghamton University Symphony Orchestra; the Percussion Ensemble and Steel Drum Band; Collegium Musicum early music Ensemble; the Nukporfe African Drumming and Dance Ensemble; the Piano, Low Brass, Flute and Guitar Ensembles, and so much more.\nFor a more detailed listing of the performance season and more information about tickets and parking, visit the link below or at:\nhttps://docs.google.com/document/d/15BcoXMznSr60irYy__HEpxJj2PF3c2ps19BiETF0LHk/edit?usp=sharing",
+        "links": [
+            "https://docs.google.com/document/d/15BcoXMznSr60irYy__HEpxJj2PF3c2ps19BiETF0LHk/edit?usp=sharing"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nRobert J Manners\nor visit\nhttps://www.binghamton.edu/music/events.html",
+            "links": [
+                "mailto:rmanner1@binghamton.edu",
+                "https://www.binghamton.edu/music/events.html"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Professional vacancy: Visual content strategist/designer",
+        "body": "Visual content strategist/designer",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nKathy Gallagher\nor visit\nhttps://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191832",
+            "links": [
+                "mailto:kgallagh@binghamton.edu",
+                "https://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191832"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Professional vacancy: Manager of content and data curation",
+        "body": "Manager of content and data curation",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nKathy Gallagher\nor visit\nhttps://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191835",
+            "links": [
+                "mailto:kgallagh@binghamton.edu",
+                "https://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191835"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Research Foundation vacancy: Project support specialist, IEEC",
+        "body": "The ideal candidate will have experience in reliability assessment in microelectronics. The individual will prepare reports for consultation and proposal development and provide consultation for IEEC member companies and faculty members. They will also provide training for tools in the IEEC reliability lab for students and industry members while developing the required test and characterization techniques.\nFor more information and to apply, click the link provided.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nAdam Chavez\nor visit\nhttps://rfbu.interviewexchange.com/jobofferdetails.jsp?JOBID=189994",
+            "links": [
+                "mailto:chaveza@binghamton.edu",
+                "https://rfbu.interviewexchange.com/jobofferdetails.jsp?JOBID=189994"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Leadership Development Program nominations",
+        "body": "Nominations for the Fall 2025 Binghamton University Leadership Development Program are now being accepted.\nThe program sessions will be in-person and are scheduled for Sept. 10, Sept. 24 and Oct. 8, 2025.  The program consists of interactive sessions, online modules and mentoring with a focus on individual leadership, team leadership and organizational leadership. Participants can be nominated by their supervisor or self-nominate. This is a great opportunity to learn new skills, hone your existing ones and network with other colleagues/leaders across the campus.\nProgram details and schedules can be found at:\nhttps://www.binghamton.edu/offices/uctd/training/leadership-development-program/\nThe online nomination is located at the link below.\nQuestions may be directed to Aaron Phelps at\nphelpsa@binghamton.edu\n.",
+        "links": [
+            "https://www.binghamton.edu/offices/uctd/training/leadership-development-program/",
+            "mailto:phelpsa@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nAaron Phelps\nor visit\nhttps://www.binghamton.edu/offices/uctd/training/leadership-development-program/nomination-form.html",
+            "links": [
+                "mailto:phelpsa@binghamton.edu",
+                "https://www.binghamton.edu/offices/uctd/training/leadership-development-program/nomination-form.html"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Professional vacancy: Associate dean for research, corporate engagement and entrepreneurship, Watson",
+        "body": "Professional vacancy: Associate dean for research, corporate engagement and entrepreneurship, Watson (Internal Only)",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nKathy Gallagher\nor visit\nhttps://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191753",
+            "links": [
+                "mailto:kgallagh@binghamton.edu",
+                "https://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191753"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Professional vacancy: Baseball pitching coach",
+        "body": "Professional vacancy: Baseball pitching coach",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nChelsey Fletcher\nor visit\nhttps://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191265",
+            "links": [
+                "mailto:cfletche@binghamton.edu",
+                "https://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191265"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Professional vacancy: Business manager, enrollment management",
+        "body": "Professional vacancy: Business manager, enrollment management",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nKathy Gallagher\nor visit\nhttps://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191754",
+            "links": [
+                "mailto:kgallagh@binghamton.edu",
+                "https://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191754"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Professional vacancy: Access services assistant, Libraries (Part time, temporary)",
+        "body": "Professional vacancy: Access services assistant, Libraries (Part time, temporary)",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nKathy Gallagher\nor visit\nhttps://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191153",
+            "links": [
+                "mailto:kgallagh@binghamton.edu",
+                "https://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191153"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Professional vacancy: Assistant director of outreach and engagement, Workforce Development",
+        "body": "Professional vacancy: Assistant director of outreach and engagement, Workforce Development",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nKathy Gallagher\nor visit\nhttps://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191146",
+            "links": [
+                "mailto:kgallagh@binghamton.edu",
+                "https://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=191146"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Professional vacancy: Electrical engineering designer",
+        "body": "Professional vacancy: Electrical engineering designer",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nKathy Gallagher\nor visit\nhttps://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=190802",
+            "links": [
+                "mailto:kgallagh@binghamton.edu",
+                "https://binghamton.interviewexchange.com/jobofferdetails.jsp?JOBID=190802"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Research Foundation vacancy: Physical education teacher, Institute for Child Development",
+        "body": "The Children's Unit for Treatment and Evaluation (CUTE), a New York State Approved Special Education Program (ages 3-11) and NASET School of Excellence, is one of ICD's many service programs. The staff consists of devoted special education teachers, speech-language pathologists, occupational therapists, school psychologists, board-certified behavior analysts, clinical psychologists, physical education teachers, paraprofessional staff and administrative support staff who work together to meet the needs of the individuals and families served. This position will be part of the dynamic team at CUTE, providing center-based services to students enrolled in the program by school districts and county health departments throughout the Southern Tier of New York.\nFor more information and to apply, click the link provided below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nAdam Chavez\nor visit\nhttps://rfbu.interviewexchange.com/jobofferdetails.jsp?JOBID=190810",
+            "links": [
+                "mailto:chaveza@binghamton.edu",
+                "https://rfbu.interviewexchange.com/jobofferdetails.jsp?JOBID=190810"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Faculty and Staff Fall Social Mixer: Sept. 12",
+        "body": "In celebration of Latin American Heritage Month, the Division of Diversity, Equity and Inclusion and the Office of Talent and Engagement invite you to the annual Fall Social Mixer, which will be held from 5-7:30 p.m. Friday, Sept. 12, on the Hinman Dining Center Terrace. The rain location will be Hinman Dining Center 1200.\nJoin an evening of food, drinks and networking opportunities, featuring live music by Salsa Libre Lite. Campus faculty and staff can RSVP using B-Engaged at the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nDivision of Diversity, Equity and Inclusion\nor visit\nhttps://cglink.me/2eQ/r2286222",
+            "links": [
+                "mailto:kmoussea@binghamton.edu",
+                "https://cglink.me/2eQ/r2286222"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "NSF funding available for your technology development at the Battery Show",
+        "body": "Are you conducting translational research, or do you have an exciting invention or innovation in the battery or energy storage sector? Researchers, students and entrepreneurs at Binghamton University have the opportunity to receive grant funding to progress their research or innovation. The National Science Foundation (NSF) I-Corps Program gives researchers funding and training to explore the commercial path forward for their research, inventions and products.\nThe four-week Hybrid Regional I-Corps Course comprises virtual sessions, mentoring and the opportunity to interact with key customers and industry stakeholders while opening up access to $5,000 in funding to attend the Battery Show, held on Oct. 7–9, in Detroit, Mich.\nSuccessful teams have the opportunity to progress to the national-level NSF I-Corps Teams Program, providing $50,000 in grant funding.\nThe hybrid course starts on Monday, Sept. 15. Apply by Wednesday, Aug. 20, at:\nhttps://www.tfaforms.com/5184955\nFor questions, contact Matt Quimby, at\nmquimby1@binghamton.edu\n.",
+        "links": [
+            "https://www.tfaforms.com/5184955",
+            "mailto:mquimby1@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nMatthew Quimby\nor visit\nhttps://www.binghamton.edu/research/division-offices/innovation/programs/nsf-i-corps.html",
+            "links": [
+                "mailto:mquimby1@binghamton.edu",
+                "https://www.binghamton.edu/research/division-offices/innovation/programs/nsf-i-corps.html"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Chancellor's Horizon Award for Faculty Research and Scholarship",
+        "body": "This award honors early career faculty whose scholarly or creative activities have already achieved significant recognition and, crucially, hold strong promise for field-defining impact in the future. This award is open to faculty across all disciplines, including performance-based or creative disciplines and those that focus on pedagogical research.\nClick the link below to learn more.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nBailey Benninger\nor visit\nhttps://www.binghamton.edu/academics/provost/excellence-awards/chancellor-horizon.html",
+            "links": [
+                "mailto:bbenning@binghamton.edu",
+                "https://www.binghamton.edu/academics/provost/excellence-awards/chancellor-horizon.html"
+            ]
+        }
+    },
+    {
+        "category": "Career Development",
+        "title": "Law School Admissions Fair: Oct. 8",
+        "body": "The Fall 2025 Law School Admissions Fair will be held in person from 11 a.m.-2 p.m. Wednesday, Oct. 8, in the University Union Mandela Room. Students will have an opportunity to connect with representatives from various ABA-approved law institutions. Attend to learn more about the schools you are interested in, or to discover new programs you may not have thought to consider.\nRegister here:\nhttps://app.joinhandshake.com/emp/career_fairs/56649\nA Networking Breakfast will take place before the fair from 9-10:30 a.m. in Old Union Hall. Law school representatives and Binghamton University students attending the Law School Admissions Fair are invited and encouraged to attend the Networking Breakfast. Registration for this event comes at no additional cost; Law school representatives should simply indicate that they will be attending when they submit their Law School Admissions Fair registration.\nApply for the Networking Breakfast here:\nhttps://docs.google.com/forms/d/e/1FAIpQLSev10y3HwN1bPG8FAeTniYkFQPldRyUHT8LGdHCV4Hggc-wGA/viewform\nSpace is limited! If you would like to apply to participate, complete the form below by Monday, Sept. 29. If you are selected to participate, you will be notified by email by Friday, Oct. 3.",
+        "links": [
+            "https://app.joinhandshake.com/emp/career_fairs/56649",
+            "https://docs.google.com/forms/d/e/1FAIpQLSev10y3HwN1bPG8FAeTniYkFQPldRyUHT8LGdHCV4Hggc-wGA/viewform"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nJohn Antonacci\nor visit\nhttps://cglink.me/2eQ/r2287007",
+            "links": [
+                "mailto:jantona2@binghamton.edu",
+                "https://cglink.me/2eQ/r2287007"
+            ]
+        }
+    },
+    {
+        "category": "Construction",
+        "title": "Lot M5 closed, metered parking added to Lot M4",
+        "body": "Lot M5 is closed for the construction of the new Lecture Hall. Metered parking from Lot M5 has been temporarily added to Lot M4.\nSee the campus map for additional parking options.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nParking Services\nor visit\nhttps://www.binghamton.edu/maps/pdfs/campus_map.pdf",
+            "links": [
+                "mailto:parking@binghamton.edu",
+                "https://www.binghamton.edu/maps/pdfs/campus_map.pdf"
+            ]
+        }
+    },
+    {
+        "category": "Construction",
+        "title": "Academic A bus stop relocation",
+        "body": "The bus stop location at Academic A is being relocated due to construction on the new Lecture Hall. The new bus stop will now be permanently located near the intersection of West Drive and Connector Road. The Hinman Campus Shuttle stop will also stop at this new location.\nFor more information on transit, visit the TAPS website at the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nTAPS\nor visit\nhttps://www.binghamton.edu/services/transportation-and-parking/buses-and-shuttles/",
+            "links": [
+                "mailto:taps@binghamton.edu",
+                "https://www.binghamton.edu/services/transportation-and-parking/buses-and-shuttles/"
+            ]
+        }
+    },
+    {
+        "category": "Construction",
+        "title": "Upper Bunn Hill entrance temporarily closed",
+        "body": "The Upper Bunn Hill entrance, by the Hillside Community, is temporarily closed due to the construction along Bunn Hill Road. This closure is expected to last a week.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nTAPS",
+            "links": [
+                "mailto:taps@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "Construction",
+        "title": "Pool closure for expansion-related maintenance",
+        "body": "The East Gym pool is closed indefinitely for maintenance related to the expansion project. Campus Recreation will share updates on its webpage, through Dateline and on the Campus Rec app as soon as more information is available.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nJane Kallmerten\nor visit\nhttps://www.binghamton.edu/campus-recreation/current-hours.html",
+            "links": [
+                "mailto:jkallmer@binghamton.edu",
+                "https://www.binghamton.edu/campus-recreation/current-hours.html"
+            ]
+        }
+    },
+    {
+        "category": "Construction",
+        "title": "2025 Summer construction accomplishments/updates",
+        "body": "Summer 2025 construction saw new projects getting underway, significant advancement of ongoing projects and improvements in several outdoor areas. A summary is available on the Facilities Management website at the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nKaren Fennie\nor visit\nhttps://www.binghamton.edu/facilities-management/construction-news/index.html",
+            "links": [
+                "mailto:kfennie@binghamton.edu",
+                "https://www.binghamton.edu/facilities-management/construction-news/index.html"
+            ]
+        }
+    },
+    {
+        "category": "Construction",
+        "title": "East Gym Addition construction activity",
+        "body": "Preliminary construction activity for the East Gym Addition project will begin Monday, Nov. 4. The contractor will be fencing the site and conducting surveying work. A construction trailer to support operations will be delivered to the staging area on lot E1 before 7 a.m. A section of the walkway on the north side of the East Gym, from the track to the recreation tennis courts, will be closed with signage in place indicating pedestrian detours. The track and courts will remain accessible. As previously announced, parking in lot E1 will be closed beginning Nov. 4. Alternate parking is available in lot G1 or elsewhere on campus. The project is expected to take 18 months to complete.\nContact project coordinator Gregg Konnick with any questions, at\ngkonnick@binghamton.edu\n.",
+        "links": [
+            "mailto:gkonnick@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nGregg Konnick",
+            "links": [
+                "mailto:gkonnick@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "Construction",
+        "title": "Lot E1 closure",
+        "body": "Parking lot E1 will be closed Monday, Nov. 4, in advance of activity associated with the East Gym addition project. The lot will remain closed for the duration of the project, which is anticipated to take 15 to 18 months. The contractor will be using the lot to support construction activities. Additional parking is available in lot G1 adjacent to the Welcome Center. Signage is in place to indicate the upcoming closure.\nContact Gregg Konnick, project coordinator, at\ngkonnick@binghamton.edu\n.",
+        "links": [
+            "mailto:gkonnick@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nGregg Konnick",
+            "links": [
+                "mailto:gkonnick@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Department signups for UFEST now open",
+        "body": "If your department is interested in tabling at UFEST in the fall, on Saturday, Aug. 23, signups are now available at the link below. This event highlights ways for students to get involved with student organizations; departments that highlight this involvement will be given preference.\nNote that, due to limited space, it is preferred that departments sign up for this \"involvement fair\"-style event only if they have a student organization association.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nJennifer Keegin\nor visit\nhttps://cglink.me/2eQ/s95382",
+            "links": [
+                "mailto:jkeegin@binghamton.edu",
+                "https://cglink.me/2eQ/s95382"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Homecoming Fall Festival tabling: Sept. 27",
+        "body": "Campus partners are invited to table at the Fall Festival during Homecoming at 3 p.m. Saturday, Sept. 27, in front of the Events Center.\nEmail Alicia Casper at\nacasper@binghamton.edu\nto register.",
+        "links": [
+            "mailto:acasper@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nAlicia Casper",
+            "links": [
+                "mailto:acasper@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Daytime closure of upper Bunn Hill entrance",
+        "body": "The upper Bunn Hill entrance, by the Hillside Community, is temporarily closed during the daytime due to the construction along Bunn Hill Road. This closure is expected to last a week. This entrance will be open over the weekend.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nTAPS",
+            "links": [
+                "mailto:taps@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Bike safety event on campus: Aug. 25",
+        "body": "TAPS, in partnership with Campus Recreation, will host a bike safety event at noon, Monday, Aug. 25, on the Peace Quad. Important bike safety information will be reviewed, and bike safety giveaways will be handed out. If you have your own bike or use the University bikeshare bikes, stop by and learn more!",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nTAPS\nor visit\nhttps://www.binghamton.edu/services/transportation-and-parking/alternative-transportation/bike-share/",
+            "links": [
+                "mailto:taps@binghamton.edu",
+                "https://www.binghamton.edu/services/transportation-and-parking/alternative-transportation/bike-share/"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Evening class AV support",
+        "body": "Educational Communications (EdComm) will have professional staff covering evening class hours starting in the fall 2025 semester. Faculty teaching classes after 4 p.m. can expect to reach professional help at the 777-4757 helpline number, and to have technical staff visit their classrooms for AV assistance during class.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nAndrew Tucci",
+            "links": [
+                "mailto:atucci@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "September NewB Cafe: Sept. 10",
+        "body": "Summer may have come to an end, but the work of maintaining an active lifestyle of health and wellness continues! The Office of Talent and Engagement invites new employees (Faculty, professional staff, classified staff, MC and RF) to the September NewB Cafe from 12:30 p.m.-2 p.m. Wednesday, Sept. 10, in UUW 324. Register by Wednesday, Aug. 27.\nHear from colleagues of Campus Rec and B-Healthy about how to keep the summer momentum going as the seasons change. A healthy campus is a successful campus. Click the link below to learn more or RSVP. If you have any questions, contact Andre Mathis, employee engagement specialist, at\namathis@binghamton.edu\n.",
+        "links": [
+            "mailto:amathis@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nAndre Mathis\nor visit\nhttps://cglink.me/2eQ/r2285527",
+            "links": [
+                "mailto:amathis@binghamton.edu",
+                "https://cglink.me/2eQ/r2285527"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "New campus shuttle stop added to Lot G1",
+        "body": "A new campus shuttle stop has been added to Lot G1 near the Welcome Center. This stop will run Monday through Friday only, offering a convenient way to get closer to class when parking in Lot G1.\nFor more information on transit, visit the TAPS website at the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nTAPS\nor visit\nhttps://www.binghamton.edu/services/transportation-and-parking/buses-and-shuttles/",
+            "links": [
+                "mailto:taps@binghamton.edu",
+                "https://www.binghamton.edu/services/transportation-and-parking/buses-and-shuttles/"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Fall semester Food Pantry pick-up hours",
+        "body": "Binghamton University provides a Food Pantry that is a temporary, judgment-free place for students, faculty, staff and community members facing hard times, such as running short of money for the month or other emergencies.\nPick up hours for the fall semester can be found at the link below. Food Pantry locations and the online ordering form can also be found at the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nFood Pantry\nor visit\nhttps://www.binghamton.edu/services/pantry/index.html",
+            "links": [
+                "mailto:bpantry@binghamton.edu",
+                "https://www.binghamton.edu/services/pantry/index.html"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Register for the Community Engagement Awards",
+        "body": "Join the Center for Civic Engagement to celebrate the incredible impact of community engagement at Binghamton University and beyond! The Community Engagement Awards will take place from 10-11:30 a.m. Thursday, Sept. 18, in University Union Old Union Hall. This event will shine a spotlight on the students, faculty, staff and community partners whose creativity, commitment and collaboration have made a real difference.\nThis special event will feature:\n- Awards recognition honoring outstanding achievements in community-engaged teaching, research and partnership\n- A buffet-style breakfast to enjoy while connecting with peers, colleagues and community partners\n- Networking opportunities to strengthen relationships and spark new collaborations that extend learning and impact beyond campus\nRegistration is required by 5 p.m. Friday, Aug. 29. Click the link below to RSVP.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nCenter for Civic Engagement\nor visit\nhttps://docs.google.com/forms/d/e/1FAIpQLSe2fE7-RjyJPuTNLzSlbz6OMoIndfye285I0FOO8EQX1Sgjag/viewform",
+            "links": [
+                "mailto:cce@binghamton.edu",
+                "https://docs.google.com/forms/d/e/1FAIpQLSe2fE7-RjyJPuTNLzSlbz6OMoIndfye285I0FOO8EQX1Sgjag/viewform"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "\"Don't Cancel That Class\" programming for faculty",
+        "body": "\"Don't Cancel That Class\" is a B-Healthy: Healthy Campus Initiative with the goal of providing health and wellness workshops in place of a class.\nWhy participate?\n- Keep students engaged and learning.\n- Promote the use of campus resources.\n- Make up for a missed class day in a meaningful way.\nRequest Form:\nSubmit a request 3 weeks ahead at the link below.\nB-Healthy staff will review your request and confirm coverage.\nWorkshop Topics:\n- The dimensions of wellness (40-50 mins.)\n- Happiness beyond academics (40-50 mins.)\n- Party Safe: for party throwers and goers (60 mins.)\n- Safer Sex 101 (50-60 mins.)\n- Resource Learning (30-40 mins.)\n- Resilience through identity and habits (50-60 mins.)\n- Cannabis today (60 mins.)\n- Suicide Prevention (60 mins.)\nMore information and descriptions can be found online at:\nhttps://www.binghamton.edu/bhealthy/requests.html\nRequest a brochure or contact B-Healthy to learn more about this program!",
+        "links": [
+            "https://www.binghamton.edu/bhealthy/requests.html"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nB-Healthy\nor visit\nhttps://cglink.me/2eQ/s95400",
+            "links": [
+                "mailto:bhealthy@binghamton.edu",
+                "https://cglink.me/2eQ/s95400"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "August NewB Cafe today",
+        "body": "There is a vast array of resources and services available to employees! Getting connected and amplifying your engagement with the services available from Auxiliary Services will provide a more satisfying employee experience!\nThe Office of Talent and Engagement invites new employees (Faculty, professional staff, classified staff, MC and RF) to the August NewB Cafe. The event will take place from 10 a.m.-11:30 a.m. Tuesday, Aug. 12, in UUW324. Register by Thursday, Aug. 7.\nIf you have any questions, contact Andre Mathis, employee engagement specialist, at\namathis@binghamton.edu\n.",
+        "links": [
+            "mailto:amathis@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nAndre Mathis\nor visit\nhttps://cglink.me/2eQ/r2285373",
+            "links": [
+                "mailto:amathis@binghamton.edu",
+                "https://cglink.me/2eQ/r2285373"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Changes to student printing system",
+        "body": "Beginning this Fall semester, Binghamton University will be implementing a new, more sustainable student printing system. The University is moving from a dollar-based quota to a credit-based system that simplifies how you track your printing and encourages responsible resource use.\nThe number of pages allocated has not changed; each student receives 870 print credits at the start of each semester.\n- One black-and-white page = one credit\n- One color page = eight credits\nThe print allocation is issued by the first day of the fall, summer, spring and winter semesters, and is reset twice a year before the start of the Fall and Spring semesters.\nTo help you get the most out of your print credits, ITS will be updating campus printers to default to duplex (double-sided) printing, and will also send out a low print credit email once you fall below 20% of your printing credits.\nTo help students maximize their print credits, ITS will update campus printers to default to duplex (double-sided) printing and will also send out a low print credit email once they fall below 20% of their printing credits.\nIf students need additional credits for academic requirements, they will be able to submit a request through the new \"Printing Credit Request Form.\" There will be a justification of need and a requirement to watch a brief video on responsible printing.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nITS Help Desk\nor visit\nhttps://www.binghamton.edu/its/about/teams/technology-support-services/technical-support-services/student-printing/index.html",
+            "links": [
+                "mailto:helpdesk@binghamton.edu",
+                "https://www.binghamton.edu/its/about/teams/technology-support-services/technical-support-services/student-printing/index.html"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "\"Classified Connections\" breakfast event: Sept. 16",
+        "body": "The Office of Talent and Engagement would like to invite all classified staff (CSEA, PEF, ALES, NYSOPBA and PBANYS) to \"Classified Connections\". The event will take place from 6:45-8:30 a.m. Tuesday, Sept. 16, in UUW324. RSVP by Tuesday, Sept. 2.\nThis event is a breakfast Grab-N-Go in which you will be able to pick up either a breakfast sandwich box or a breakfast bakery box.\nQuestions can be directed to Andre Mathis, employee engagement specialist, at (607) 777-2078, or at\namathis@binghamton.edu\n.",
+        "links": [
+            "mailto:amathis@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nAndre Mathis\nor visit\nhttps://forms.gle/Q1NxUXLfELyFdKkMA",
+            "links": [
+                "mailto:amathis@gmail.com",
+                "https://forms.gle/Q1NxUXLfELyFdKkMA"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Register your campus e-transportation devices",
+        "body": "Lithium-ion batteries are found in many consumer e-transportation devices due to their small size, power output and versatility. Binghamton University is heavily invested in researching emerging energy storage technology related to Li-ion batteries. While our researchers are busy creating future energy solutions, consumer-grade lithium batteries are plentiful and present hazards that must be managed for the safety of all campus community members.\nAll e-transportation devices powered by a lithium-ion battery such as e-bikes, e-scooters and e-hoverboards brought to, stored or charged on campus must be registered. There is no fee to do so, and the process is simple. Note that you will need to provide photos of each device and battery. You can access the registration form via phone or computer at the link below.\nThis registration does not apply to battery-operated devices such as — but not limited to — laptops, desktop computers, iPads, tablets, cell phones, ADA Mobility Devices, hybrid or electric vehicles, etc.\nBinghamton University has established several safety guidelines for e-transportation users. To learn more about the policy, go to:\nhttps://www.binghamton.edu/operations/policies/policy-422.html",
+        "links": [
+            "https://www.binghamton.edu/operations/policies/policy-422.html"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nEnvironmental Health & Safety\nor visit\nhttps://www.binghamton.edu/offices/environmental-health-safety/fire-prevention/battery-fire-safety.html",
+            "links": [
+                "mailto:ehs@binghamton.edu",
+                "https://www.binghamton.edu/offices/environmental-health-safety/fire-prevention/battery-fire-safety.html"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Advertise your event/program during Family Weekend",
+        "body": "Parent and Family Programs is looking to promote campus partners' activities, programs, events and gatherings throughout Family Weekend.\nThis year's Family Weekend will run from Oct. 10-12.\nComplete the form at the link below if you have not already communicated with Parent and Family Programs directly. Information submitted will be added to the Family Weekend event calendar and social media.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nJohn Kiereck\nor visit\nhttps://cglink.me/2eQ/s92641",
+            "links": [
+                "mailto:jkiereck@binghamton.edu",
+                "https://cglink.me/2eQ/s92641"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Promote your events and announcements in The Union",
+        "body": "Need to get the word out? Submit a request to display your digital sign on displays in The Union!\nThe Union has 14 digital displays where images will be displayed for 10-15 seconds at a time, on a loop, during the Union's operating hours. It’s a great way to reach students, faculty and staff.\nRecognized student groups, faculty and staff departments are all permitted to submit digital signage requests. Learn more and submit your requests online at the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nNii Tetteh\nor visit\nhttps://www.binghamton.edu/services/union/services/digital-signage-request.html",
+            "links": [
+                "mailto:ntetteh1@binghamton.edu",
+                "https://www.binghamton.edu/services/union/services/digital-signage-request.html"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "A limited-time opportunity to support Binghamton and save",
+        "body": "The NYS Charitable Tax Credit Program is now available through the SUNY Impact Foundation. Apply by Tuesday, Sept. 30.\nDonors who pay New York state taxes in excess of $10,000 and give to support Binghamton University, or any other State University of New York (SUNY) or City University of New York (CUNY) school, are eligible. The tax benefits, in the form of credits and deductions, are for gifts of $10,000 to $100,000.\nFor the total qualified gift made, the donor receives:\n1. New York state: 85% charitable tax credit\nAND\n2. Federal: 15% charitable deduction\n3. New York state: 15% charitable deduction\nDonors receive the benefit of both a credit and a deduction on their New York state tax filing for 2025.\nApply today at the link below!",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nEmily Gast\nor visit\nhttps://www.binghamton.edu/foundation/giving/sunyimpact.html",
+            "links": [
+                "mailto:egast@binghamton.edu",
+                "https://www.binghamton.edu/foundation/giving/sunyimpact.html"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "The Center for Civic Engagement will register your students to vote!",
+        "body": "Help students make their voices heard! The Center for Civic Engagement is available to come to your class and help students register to vote, learn about the absentee/mail or in-person voting process and answer questions about student voting rights and responsibilities. The CCE coordinates a nationally recognized, nonpartisan student voting program that has led to steady increases in student voter turnout.\nA standard class presentation takes around 15-20 minutes. The Center also offer shorter presentation options to better meet the needs of faculty and students.\nThe voter registration deadline in New York is Saturday, Oct. 25. Submit requests early to help the CCE accommodate as many classes as possible.\nYou can submit your presentation request at the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nEmily Mains\nor visit\nhttps://forms.gle/spc7rL8R53nSyb2B9",
+            "links": [
+                "mailto:cce@binghamton.edu",
+                "https://forms.gle/spc7rL8R53nSyb2B9"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "EAP updated downtown office hours",
+        "body": "Join EAP for on-location office hours from 1-5 p.m. on Thursdays, alternating between the Decker Health Sciences building and the School of Pharmacy and Pharmaceutical Sciences building.\nAll employees are welcome to utilize these office hours, regardless of work location.\nUpcoming dates by location:\n- Health and Sciences building, Room 141: Aug. 28, Sept. 11, Sept. 25, Oct. 9\n- Pharmacy building, Room 115: Sept. 4, Sept. 18, Oct. 2, Oct. 16\nIf you would like to schedule an appointment, you can email\neap@binghamton.edu\nor call (607) 777-6655. Walk-ins, while limited to availability, are also a welcome option.\nEAP also offers on site appointments to ITC and UDC when requested.",
+        "links": [
+            "mailto:eap@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nAngella NamHee Kim",
+            "links": [
+                "mailto:akim@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Parking availability information on TAPS website",
+        "body": "Transportation and Parking Services (TAPS) closely monitors parking lot availability. TAPS surveys and counts unoccupied parking spaces every two hours, Monday through Friday. With this data, TAPS updates a parking availability table on the TAPS website at the link below. The table shows which parking lots have available space during peak times on campus and the average number of open spaces in a lot during a timeframe.\nParking on campus is busiest during peak class times, between 10 a.m.-3 p.m. There is always available space, but it is not always conveniently located near a destination. If you are having trouble finding a spot, visit the TAPS website at the link below. The campus shuttle stops near remote parking lots to transport you closer to your specific destination.\nThe University also offers convenient alternative transportation options. OCCT, BC Transit and carpooling with 511NY Rideshare make it easy to get around campus and the community. For more information on alternative transportation options, visit the TAPS website at:\nbinghamton.edu/transportation-and-parking",
+        "links": [
+            "http://binghamton.edu/transportation-and-parking"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nTAPS\nor visit\nhttps://www.binghamton.edu/services/transportation-and-parking/parking/parking-availability/",
+            "links": [
+                "mailto:taps@binghamton.edu",
+                "https://www.binghamton.edu/services/transportation-and-parking/parking/parking-availability/"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "BUC$ program to be discontinued",
+        "body": "BUC$, the optional student amenity that allows prepaid funds to be added to a student ID card to pay for certain University services, will be discontinued. This decision was made after a thorough review of campus needs and available technologies. The change allows a transition to more modern, flexible and widely used payment options across campus.\nAs of Aug. 4, 2025, adding funds to a BUC$ account on a student ID card will no longer be available. Any residual BUC$ balances will remain available for use through May 29, 2026. Dining Services and the University Bookstore will continue to accept BUC$ during this time. Students may also convert BUC$ balances to dining dollars or request a refund by emailing\nBinghamtonMealPlanOffice.USA@sodexo.com\nor visiting the Meal Plan office in UU-B02. Students are encouraged to spend BUC$ balances this academic year. Changes to student printing quotas have been made.\nFor more details, visit the BUC$ website below.",
+        "links": [
+            "mailto:BinghamtonMealPlanOffice.USA@sodexo.com"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nAuxiliary Services\nor visit\nhttps://www.binghamton.edu/services/auxiliary/dining/bucs/",
+            "links": [
+                "mailto:auxserv@binghamton.edu",
+                "https://www.binghamton.edu/services/auxiliary/dining/bucs/"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Don't cancel your class/student program — request a career workshop",
+        "body": "The Fleishman Career Center can provide customized workshops, presentations or activities aligned with your students’ needs, whether you've partnered with the Center before or are looking to do so for the first time!\nThis fall, think about incorporating one or more of the following in courses or student programs:\n- A career education workshop\n- A financial literacy workshop\n- A career assignment or activity\n- A mini 15-minute presentation on a single topic (making authentic connections, exploring academic and career interests, or top tips for post-grad planning)\nNote that the Ceter has launched a new program request form at the link below! Bookmark the updated form and delete any outdated links you may have.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nJessica Lane-Rwabukwisi\nor visit\nhttps://docs.google.com/forms/d/1ChHXg8hlr7XCRlD5mxrTguwboGf8hg830eKYyIYs7zA/viewform?edit_requested=true",
+            "links": [
+                "mailto:jlanerwa@binghamton.edu",
+                "https://docs.google.com/forms/d/1ChHXg8hlr7XCRlD5mxrTguwboGf8hg830eKYyIYs7zA/viewform?edit_requested=true"
+            ]
+        }
+    },
+    {
+        "category": "General",
+        "title": "Grubhub is BUDS' new mobile ordering app",
+        "body": "Skip the line and order ahead on the Grubhub mobile ordering app! It’s easy: download the app and link your meal plan to begin ordering online at the MarketPlace, Garbanzo, Hungry Bearcat, Library Tower Café and John Arthur Café presents: Einstein Bros. Bagels.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nLori Benson\nor visit\nhttps://www.grubhub.com",
+            "links": [
+                "mailto:Lori.Benson@sodexo.com",
+                "https://www.grubhub.com"
+            ]
+        }
+    },
+    {
+        "category": "Health and Wellness",
+        "title": "Good Grief Book Club today",
+        "body": "Good Grief Book Club is a book club for faculty and staff who are interested in reading and discussing books (of all genres) related to the universal experience of grief and loss. The group meets once a month on a Friday from noon to 1 p.m. at a Vestal campus location.\nThe next meeting will take place from noon to 1 p.m. Friday, Aug. 22, in UU-209.  The group will be discussing the book, \"Being Mortal\" by Atul Gawande.\nAll are welcome; registration is not required. Questions can be directed to Jackie McGinley, at\njmcginle@binghamton.edu\n, or Katy Perry, at\ncperry@binghamton.edu\n.",
+        "links": [
+            "mailto:jmcginle@binghamton.edu",
+            "mailto:cperry@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nJacqueline McGinley\nor visit\nhttps://drive.google.com/file/d/1udlViYTPh5SZTL7fT2YO7bPKcr6mpCa1/view?usp=drive_link",
+            "links": [
+                "mailto:jmcginle@binghamton.edu",
+                "https://drive.google.com/file/d/1udlViYTPh5SZTL7fT2YO7bPKcr6mpCa1/view?usp=drive_link"
+            ]
+        }
+    },
+    {
+        "category": "Health and Wellness",
+        "title": "Free hearing screenings: Aug. 21-22",
+        "body": "The Speech-Language Pathology Department is offering free hearing screenings from 9 a.m. to noon on Aug. 21-22, at the  Johnson City Speech and Hearing Clinic located at 10 University Blvd (formerly Gannett Drive).\nCall (607) 777-4216 or email\nslpclinic@binghamton.edu\nto register, or call Joanne Crowson at (607) 777-4687 with any questions.",
+        "links": [
+            "mailto:slpclinic@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nJoanne Crowson",
+            "links": [
+                "mailto:jcrowson@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "Health and Wellness",
+        "title": "\"Move Your Way\" program fall challenges",
+        "body": "Six upcoming challenges for the \"Move Your Way\" program are taking place this fall semester! Sign up as an individual or as a team and win prizes.\n- Individual Challenge: Aug. 25–31\n- Individual Challenge: Sept. 22–28\n- Group Challenge: “De-Stress Squad” Sept. 22–28\n- Individual Challenge: Sept. 29–Oct. 5\n- Individual Challenge: Nov. 24–30\n- Group Challenge: Dec. 1–14\nLearn more about each challenge on the B-Healthy website at the link below. All faculty and staff are welcome to join!\nThe B-Healthy 'Move Your Way' program is committed to promoting inclusivity and providing accessible options for all individuals, regardless of their ability or experience. B-Healthy strives to provide a supportive environment that allows people to come together and live a life of wellness.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nB-Healthy\nor visit\nhttps://www.binghamton.edu/bhealthy/programs-and-services/move-your-way.html",
+            "links": [
+                "mailto:bhealthy@binghamton.edu",
+                "https://www.binghamton.edu/bhealthy/programs-and-services/move-your-way.html"
+            ]
+        }
+    },
+    {
+        "category": "Health and Wellness",
+        "title": "Special offer: Massage therapy on campus",
+        "body": "Start the semester relaxed with $10 off when you spend $50 or more in the Wellness Suite! That means a full 60-minute relaxation massage is just $62 with the coupon. Licensed massage therapists offer a variety of services; to book, email\nWellness@binghamton.edu\nor stop by if space is available.\nThe Wellness Suite, located in the East Gym, is open six days a week. Offer valid through Monday, Sept. 30. One coupon per person, per promotional period; not valid with other discounts. Pick up your coupon at the East Gym Recreation Center.",
+        "links": [
+            "mailto:Wellness@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nSara Couchman\nor visit\nhttps://www.binghamton.edu/campus-recreation/wellness-services/index.html",
+            "links": [
+                "mailto:scouchman@binghamton.edu",
+                "https://www.binghamton.edu/campus-recreation/wellness-services/index.html"
+            ]
+        }
+    },
+    {
+        "category": "Health and Wellness",
+        "title": "Walk for Wellness 2025: Sept. 6",
+        "body": "Get ready for Binghamton University’s First Annual Walk for Wellness — a morning filled with community, good vibes and healthy fun! Hosted by the BMINDS Research Team and the Health and Wellness Studies Department, this event takes place from 9 a.m. to noon on Saturday, Sept. 6, in Otsiningo Park.\nWhether you’re here to walk, network or snack, you won’t want to miss the chance to show off your green Binghamton spirit; connect with healthcare organizations like UHS and Lourdes; and refresh with lemonade from Sunny Sips and juice bowls from Common Juice Soilery, all while soaking up some Vitamin D!\nInterested in tabling, selling, collaborating or sponsoring?\nEmail\nbinghamtonminds@gmail.com\nto get involved. Register now at the link below to bring a team, join the walk and be part of a brand-new Binghamton tradition.",
+        "links": [
+            "mailto:binghamtonminds@gmail.com"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nRania Khan\nor visit\nhttps://www.eventbrite.com/e/walk-for-wellness-2025-tickets-1578732955769?aff=oddtdtcreator",
+            "links": [
+                "mailto:rkhan8@binghamton.edu",
+                "https://www.eventbrite.com/e/walk-for-wellness-2025-tickets-1578732955769?aff=oddtdtcreator"
+            ]
+        }
+    },
+    {
+        "category": "NCAA Division I Athletics",
+        "title": "Binghamton Division of Athletics honored at Rumble Ponies game",
+        "body": "Before the Binghamton Rumble Ponies — the AA affiliate of the New York Mets — took the field for their game on the night of Thursday, Aug. 14, at Mirabito Field, the pitcher's mound was occupied by members of the Bearcats' Division of Athletics. It was part of the Rumble Ponies' way of honoring Binghamton University for their athletic successes during the 2024-25 academic year.\nClick the link below to learn more.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nDavid O'Brian\nor visit\nhttps://binghamtonbearcats.com/news/2025/8/14/general-champions-night-at-the-ballpark.aspx",
+            "links": [
+                "mailto:dobrian@binghamton.edu",
+                "https://binghamtonbearcats.com/news/2025/8/14/general-champions-night-at-the-ballpark.aspx"
+            ]
+        }
+    },
+    {
+        "category": "NCAA Division I Athletics",
+        "title": "Emily Mackay wins gold medal in 1,500 at NACAC Meet",
+        "body": "Emily Mackay '21 won the gold medal in the women's 1,500 at the North American Central American and Caribbean (NACAC) Meet on Saturday, Aug. 16, at the Grand Bahamas Sports Complex. Mackay will compete at the World Track & Field Championships in Tokyo next month.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nDavid O'Brian\nor visit\nhttps://binghamtonbearcats.com/news/2025/8/16/womens-track-and-field-mackay-wins-1-500-gold-medal-at-nacac-meet.aspx",
+            "links": [
+                "mailto:dobrian@binghamton.edu",
+                "https://binghamtonbearcats.com/news/2025/8/16/womens-track-and-field-mackay-wins-1-500-gold-medal-at-nacac-meet.aspx"
+            ]
+        }
+    },
+    {
+        "category": "NCAA Division I Athletics",
+        "title": "Featured in BingUNews: Anonymous donor provides $22 million gift to elevate Binghamton University Athletics",
+        "body": "Binghamton University today announced that it has received a game-changing $22 million gift from an anonymous donor to enhance scholarship support for its NCAA Division I athletics programs.\nThe gift, one of the largest in University athletics history, will be matched by $11 million from the State of New York, creating a $33 million endowment to expand scholarships for student-athletes across multiple sports.\nTo learn more, click the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nDateline\nor visit\nhttps://www.binghamton.edu/news/story/5712/anonymous-donor-provides-22-million-gift-to-elevate-binghamton-university-athletics/",
+            "links": [
+                "mailto:dateline@binghamton.edu",
+                "https://www.binghamton.edu/news/story/5712/anonymous-donor-provides-22-million-gift-to-elevate-binghamton-university-athletics/"
+            ]
+        }
+    },
+    {
+        "category": "NCAA Division I Athletics",
+        "title": "Binghamton alum Emily Mackay '21 advances to World Track and Field Championships",
+        "body": "Emily Mackay is returning to the world stage.\nJust one year after qualifying for the Paris Olympics, the 2021 Binghamton alum earned the bronze medal in the women's 1,500 finals at the USA Track and Field Outdoor Championships on Saturday afternoon at Hayward Field. As a result, she punched her ticket to the World Outdoor Championships, which will be held in Tokyo, Japan, on Sept. 13-21.\nClick the link below to learn more.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nDavid O'Brian\nor visit\nhttps://binghamtonbearcats.com/news/2025/8/2/womens-track-and-field-mackay-punches-ticket-to-world-championships.aspx",
+            "links": [
+                "mailto:dobrian@binghamton.edu",
+                "https://binghamtonbearcats.com/news/2025/8/2/womens-track-and-field-mackay-punches-ticket-to-world-championships.aspx"
+            ]
+        }
+    },
+    {
+        "category": "Recreation",
+        "title": "Swim lessons open Aug. 27",
+        "body": "Campus Recreation’s swim program offers lessons for all ages, helping kids and adults become strong swimmers and confident in the water. Certified instructors create a safe and supportive environment to build skills and comfort in and around the pool.\nRegistration opens Wednesday, Aug. 27, at the East Gym Recreation Center front desk. Learn more at the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nJane Kallmerten\nor visit\nhttps://www.binghamton.edu/campus-recreation/programs/aquatics/lessons.html",
+            "links": [
+                "mailto:jkallmer@binghamton.edu",
+                "https://www.binghamton.edu/campus-recreation/programs/aquatics/lessons.html"
+            ]
+        }
+    },
+    {
+        "category": "Recreation",
+        "title": "Adult Tennis Camp for beginners to pros: June 2-Aug. 28",
+        "body": "Improve your court skills and have fun all summer! Adult tennis camps are two hours of quality instruction daily on both the indoor and outdoor courts at the Lane-Starke Tennis Center. Focus on techniques, singles and doubles strategies, as well as drills designed to sharpen your on-court decision-making skills. Camp runs from June 2-Aug. 28.\nGo to the Tennis Center website at the link below, call (607)777-3491 or stop by to sign up!",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nCindy Cowden\nor visit\nhttps://www.tennisctr.com/summer-tennis",
+            "links": [
+                "mailto:cowden@binghamton.edu",
+                "https://www.tennisctr.com/summer-tennis"
+            ]
+        }
+    },
+    {
+        "category": "Recreation",
+        "title": "Gregg Wenzel ’91 Memorial 5K: Sept. 27",
+        "body": "Run or walk a scenic fall 5K around campus to honor a Bearcat — and get a t-shirt if you register by Monday, Sept. 8! The race takes place Saturday, Sept. 27, starting and ending at the Gregg Wenzel Memorial statue on Bearcat Boulevard near the West Gym.\nLearn more and sign up at the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nCraig Dube\nor visit\nhttps://runsignup.com/Race/NY/Vestal/WenzelMemorial5K",
+            "links": [
+                "mailto:cdube@binghamton.edu",
+                "https://runsignup.com/Race/NY/Vestal/WenzelMemorial5K"
+            ]
+        }
+    },
+    {
+        "category": "Research",
+        "title": "Funding opportunity to accelerate your impactful research project",
+        "body": "The Office of Entrepreneurship and Innovation Partnerships is excited to announce the opening of applications for our Seed Translational Research Projects (STRPs). The office is looking for projects that have the potential to significantly impact society and have a clear path to making a broad impact. This is a chance to take research beyond the lab and scale it to new heights.\nThe STRP program offers:\n- Up to $150,000 over two years to support a innovative research project.\n- Resources and expert guidance to help project transition from the lab to market or community implementation.\n- A chance to make a significant societal impact through STEM innovation or community engagement.\n- The project should be at a later stage with clear commercialization as either a startup or a license in 12-18 months, and have an industry partnership.\nComplete the LOI and supplemental material for your Social Innovation or STEM Innovation by Saturday, Aug. 30.\nThis opportunity is part of our Binghamton Excellence in Entrepreneurship and Discovery (EXCEED) program, supported through the prestigious NSF Accelerating Research Translation (ART) grant.\nFor more details, including eligibility and submission guidelines reach out to\nkcherny@binghamton.edu\n.",
+        "links": [
+            "mailto:kcherny@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nKathryn Cherny",
+            "links": [
+                "mailto:kcherny@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "Research",
+        "title": "Memory research opportunity for 18-40 and 60-80 year olds",
+        "body": "The Cognition, Aging and Memory Performance (CAMP) Lab in the Department of Psychology, is currently recruiting for behavioral and eye-tracking memory research studies, investigating how humans bind together and remember relational information, and how that ability changes across the lifespan. These studies are each one session, lasting 1-3.5 hours (the exact length of your participation will be confirmed when you contact the Lab). All studies are conducted in Science IV on Binghamton Campus.\nTo be eligible for these studies, you must be:\n- 18-40 or 60-80 years of age,\n- Have normal or corrected-to-normal vision,\n- Have a native English reading proficiency,\n- And must not have the following: history of neurological disease, severe traumatic brain injury, stroke, drug or substance abuse or uncontrollable shaking.\n- You must pass a screener over the phone, which assesses eligibility for this research. Studies can then be scheduled at your convenience.\nResearch studies are all computer-based tasks, in which you will be asked to study various materials, potentially including objects, faces, scenes, words, etc. You will then be asked to remember certain aspects of that studied information, such as spatial location, temporal order, etc. Eye-tracking studies involve a tabletop camera tracking the position and movement of your eyes during these memory tasks, while your head rests on a chinrest to keep your eyes stable. You will also be asked to complete standardized assessments of cognition and demographic/health surveys.\nParticipants will receive $20 per hour for participating in the study.\nIf interested, email\nCAMP_Lab@binghamton.edu\nor call 607-444-2864. You can also visit the website at the link below for more details about ongoing studies.",
+        "links": [
+            "mailto:CAMP_Lab@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nMichael Dulas\nor visit\nhttps://sites.google.com/view/binghamton-camp-lab/bingaging",
+            "links": [
+                "mailto:mdulas@binghamton.edu",
+                "https://sites.google.com/view/binghamton-camp-lab/bingaging"
+            ]
+        }
+    },
+    {
+        "category": "Research",
+        "title": "Call for student research posters for Battery Week 2025",
+        "body": "Are your students conducting research in battery chemistry, energy storage, materials, safety, energy impacts on community or related fields? As part of Battery Week 2025, undergraduate and graduate students are invited to submit research posters for a student poster session showcasing work in battery science, energy storage, safety, workforce development and related fields. This is an opportunity to share research with event attendees, including faculty, researchers, entrepreneurs and energy-tech stakeholders. Projects in progress or completed are welcome. Posters will be displayed during a dedicated session on Thursday, Oct. 16, with opportunities for feedback and networking. Proposals for student research posters are due Sept. 15 at\nhttps://forms.gle/rTi46Ef2YMhXfB5y6\nOpen to all students from Binghamton University! Have questions? Email\nkbayait@binghamton.edu",
+        "links": [
+            "https://forms.gle/rTi46Ef2YMhXfB5y6",
+            "mailto:kbayait@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nKari Bayait\nor visit\nhttps://forms.gle/rTi46Ef2YMhXfB5y6",
+            "links": [
+                "mailto:kbayait@binghamton.edu",
+                "https://forms.gle/rTi46Ef2YMhXfB5y6"
+            ]
+        }
+    },
+    {
+        "category": "Research",
+        "title": "Campus Research and Creative Opportunity Posting (CROP) — Call for opportunities",
+        "body": "Are you a faculty member, post-doc or graduate student with a research or creative opportunity for an undergraduate student? Post your position on the Campus Research Opportunity Posting (CROP) page to reach undergraduate students who seek a position.\nThe webpage below includes a link to a form to complete with details about your opportunity (title, description, student level, any prerequisites and how to apply). The form asks whether the position is ongoing or should be removed by a particular date. Once the position is created, the ESURC office can remove or repost a position at any time.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nBeth Polzin\nor visit\nhttps://www.binghamton.edu/student-research-and-scholarship/undergraduate-research/crop-database.html",
+            "links": [
+                "mailto:bpolzin@binghamton.edu",
+                "https://www.binghamton.edu/student-research-and-scholarship/undergraduate-research/crop-database.html"
+            ]
+        }
+    },
+    {
+        "category": "Research",
+        "title": "Seeking breast milk donors for paid study",
+        "body": "Researchers at Binghamton University School of Pharmacy are looking for healthy, milk-producing women to donate their excess breast milk (2-20 ounces) for use in research.\nThe overall purpose of the research is to help develop an assay to help predict medication secretion into breast milk during lactation. You must be 18 years or older to participate. You will be compensated with a $30 gift card for your time.\nIf interested or looking for more information, contact Linda Jiang at\nljiang46@binghamton.edu\n. The primary investigator is Assistant Professor Tao Zhang, who can be reached at\nzhangt@binghamton.edu\n.",
+        "links": [
+            "mailto:ljiang46@binghamton.edu",
+            "mailto:zhangt@binghamton.edu"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nLinda Jiang",
+            "links": [
+                "mailto:ljiang46@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "Speakers and Lectures",
+        "title": "Fellows Speaker Series presentation: Aug. 27",
+        "body": "Join The Institute for the Advanced Studies in the Humanities (IASH) from noon to 1:30 p.m. Wednesday, Aug. 27, in LN 1106  as Lightning Jay, assistant professor of history, presents, \"It Happens Here: Teaching the History of Illiberalism in the United States\".\nHistory and social studies education has long justified its place in the curriculum by appealing to the need to promote and safeguard democracy. Yet, as a rising tide of international illiberalism challenges democracy, there is limited evidence that high school classrooms are providing students the requisite background knowledge to interpret antidemocratic movements. Using the United States and its domestic history of fascist parties as a case study, Jay examines how popular conceptual frameworks for social studies education are ill-equipped to address this content. Reading against the dominant teleological school narrative as well as academic frameworks for controversial history, difficult history and critical whiteness studies, he posits a potential future for social studies education to counter illiberalism by teaching for democracy, teaching democratically and thinking across borders and time.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nJaileen Pache",
+            "links": [
+                "mailto:jpache1@binghamton.edu"
+            ]
+        }
+    },
+    {
+        "category": "Speakers and Lectures",
+        "title": "Fall 2025 CoCo seminar schedule now available",
+        "body": "The Fall 2025 CoCo seminar schedule is now available at:\nhttps://coco.binghamton.edu/#seminar\n(Note that the seminars will be held from 12:15-1:15p.m. this semester.)",
+        "links": [
+            "https://coco.binghamton.edu/#seminar"
+        ],
+        "for_more_info": {
+            "contact_text": "Contact\nHiroki Sayama\nor visit\nhttps://coco.binghamton.edu/#seminar",
+            "links": [
+                "mailto:sayama@binghamton.edu",
+                "https://coco.binghamton.edu/#seminar"
+            ]
+        }
+    },
+    {
+        "category": "Training and Workshops",
+        "title": "\"Snack Smarter\" workshop: Aug. 25",
+        "body": "Join B-Healthy and the Cornell Cooperative Extension of Broome County at 11 a.m. Monday, Aug. 25, in UU 324W, for a workshop on snacking smarter.\nIncludes a tasting of healthy snacks. Limited space available, register today on B-Engaged at the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nB-Healthy\nor visit\nhttps://cglink.me/2eQ/r2285654",
+            "links": [
+                "mailto:bhealthy@binghamton.edu",
+                "https://cglink.me/2eQ/r2285654"
+            ]
+        }
+    },
+    {
+        "category": "Training and Workshops",
+        "title": "Adding AI to your Data Viz Workflows: Tuesday, Aug 26",
+        "body": "Join the Libraries for \"Adding AI to your Data Viz Workflows,\" part of the \"Make it Click with Data Viz Workshop Series\" from 1:30-3 p.m. Tuesday, Aug. 26 in the Digital Scholarship Center.\nExplore how generative AI tools can enhance your data visualization process, from data cleaning to creating exploratory visualizations using ChatGPT and other generative AI chatbots.\nFor more information and to register, visit the link below.",
+        "links": [],
+        "for_more_info": {
+            "contact_text": "Contact\nHalie Kerns\nor visit\nhttps://cglink.me/2eQ/r2285892\nDateline\nAbout\nAcademics\nAdmissions\nStudent Life\nResearch\nNews\nEvents\nAthletics\nAlumni & Giving\nDateline\nAbout\nAcademics\nAdmissions\nStudent Life\nResearch\nNews\nEvents\nAthletics\nAlumni & Giving\nDateline\nAbout\nAcademics\nAdmissions\nStudent Life\nResearch\nNews\nEvents\nAthletics\nAlumni & Giving\nReturn to Top\n© 2025 Binghamton University\nState University of New York\nAccessibility\nEmergencies\nPrivacy\n© 2025 Binghamton University\nState University of New York\n© 2025 Binghamton University\nState University of New York\nAccessibility\nEmergencies\nPrivacy\nAccessibility\nEmergencies\nPrivacy\ncontact\nvisit\nshare\ncontact\nvisit\nshare",
+            "links": [
+                "mailto:hkerns@binghamton.edu",
+                "https://cglink.me/2eQ/r2285892",
+                "",
+                "/about/",
+                "/academics/",
+                "/admissions/",
+                "/student-life/",
+                "/home/research/",
+                "/news/",
+                "/calendar/",
+                "/athletics/",
+                "/advancement/",
+                "#",
+                "/about/accessibility/",
+                "/alert/",
+                "/communications-and-marketing/web/about/privacy-policy.html",
+                "https://www.binghamton.edu/contact",
+                "https://www.binghamton.edu/visit",
+                "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.binghamton.edu%2Fapps%2Fmessaging%2Fannouncement%2F%3Fsource%3Ddateline",
+                "https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.binghamton.edu%2Fapps%2Fmessaging%2Fannouncement%2F%3Fsource%3Ddateline&text=Dateline+Announcements+-+Binghamton+University",
+                "https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.binghamton.edu%2Fapps%2Fmessaging%2Fannouncement%2F%3Fsource%3Ddateline&description=The+official+source+for+university+news+at+Binghamton+University.&media=https%3A%2F%2Fwww.binghamton.edu%2Fadmissions%2Fimg%2Fhi-res%2Frandom.jpg",
+                "https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.binghamton.edu%2Fapps%2Fmessaging%2Fannouncement%2F%3Fsource%3Ddateline&mini=true",
+                "mailto:?subject=Dateline%20Announcements%20-%20Binghamton%20University&body=https://www.binghamton.edu/apps/messaging/announcement/?source=dateline"
+            ]
+        }
+    }
+]

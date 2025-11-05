@@ -47,7 +47,7 @@ def upload_image(request):
 
 #deleting images
 def delete_image(request, pk):
-    if request.method == "POST": #trying without conditional
+    if request.method == "POST": 
         post = Post.objects.filter(id=pk) 
         post.delete() 
     return redirect('all_images')

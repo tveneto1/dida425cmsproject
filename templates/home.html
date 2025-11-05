@@ -81,6 +81,15 @@
     <a href="{% url 'login' %}" style="padding: 12px 24px; background: #005A43; color: white; text-decoration: none; border-radius: 6px; transition: background 0.2s; font-weight: 600;" onmouseover="this.style.background='#004532';" onmouseout="this.style.background='#005A43';">Log In</a>
     <a href="{% url 'password_reset' %}" style="padding: 12px 24px; background: white; border: 1px solid #dee2e6; color: #212529; text-decoration: none; border-radius: 6px; transition: all 0.2s; font-weight: 400;" onmouseover="this.style.background='#f8f9fa';" onmouseout="this.style.background='white';">Reset Password</a>
   </div>
+  <br>
+  <div>
+    <a href="{% url 'signup' %}" style="padding: 12px 24px; background: white; border: 1px solid #dee2e6; color: #212529; text-decoration: none; border-radius: 6px; transition: all 0.2s; font-weight: 400;" onmouseover="this.style.background='#f8f9fa';" onmouseout="this.style.background='white';">Sign Up</a>
+  </div>
+  <br>
+  <p style="color: #666; margin-bottom: 30px; font-weight: 400;">Or start display here:</p>
+  <div>
+    <a href="{% url 'slidedisplay' %}" style="padding: 12px 24px; background: #005A43; color: white; text-decoration: none; border-radius: 6px; transition: background 0.2s; font-weight: 600;" onmouseover="this.style.background='#004532';" onmouseout="this.style.background='#005A43';">Start Display</a>
+  </div>
 </div>
 {% endif %}
 {% endblock %}

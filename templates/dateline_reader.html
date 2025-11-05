@@ -1,0 +1,18 @@
+<!-- this is where json stuff will go, incomplete right now -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+       
+        fetch('./dateline_announcements.json')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                })
+
+    </script>
+</body>
+
+</html>
