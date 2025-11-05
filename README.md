@@ -1,5 +1,5 @@
 # Django CMS Project 
-### Taylor Veneto, Aliana Slaven, Kaymora Roberts, Lillian Pulaski 
+### Lillian Pulaski, Kaymora Roberts, Aliana Slaven, Taylor Veneto
 
 This project is a **Content Management System (CMS)** built with **Django**.  
 It allows **administrators** to manage users and permissions, while **content editors** can upload and manage slides that appear on the display interface.  
@@ -40,9 +40,6 @@ Together, these components form a cohesive Django-based CMS where authenticated 
 
 Below are the main tutorials and documentation used in the development of this Django CMS project:
 
-### User Authentication & Permissions
-- [Django Authentication and Permissions – MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Authentication)  
-- [Django Login, Logout, and Signup Tutorial – LearnDjango](https://learndjango.com/tutorials/django-login-and-logout-tutorial)
 
 ### Django Setup & Environment
 - [Django CMS Installation Guide](https://docs.django-cms.org/en/latest/introduction/01-install.html)
@@ -54,5 +51,10 @@ Below are the main tutorials and documentation used in the development of this D
 ### Image Upload & Admin Features
 - [Uploading Images in Django – GeeksforGeeks](https://www.geeksforgeeks.org/python/python-uploading-images-in-django/)
 - [Uploading Images to Django Server – YouTube](https://www.youtube.com/watch?v=GNsuF4xB80E)
+- [Deleting Uploaded Files - Django File Upload Tutorial - Part 4](https://www.youtube.com/watch?v=roYopMO4Eo8&list=PLLxk3TkuAYnpm24Ma1XenNeq1oxxRcYFT&index=3)
+- [Django Media Files - Restricting Uploadable File Types with Validators and python-magic](https://www.youtube.com/watch?v=UcUm82jWeKc)
 - [Creating and Customizing Admin Pages – Django Docs](https://docs.djangoproject.com/en/5.2/ref/contrib/admin/)
 
+### User Authentication & Permissions
+- [Django Authentication and Permissions – MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Authentication)  
+- [Django Login, Logout, and Signup Tutorial – LearnDjango](https://learndjango.com/tutorials/django-login-and-logout-tutorial)
