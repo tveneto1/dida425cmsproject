@@ -4,6 +4,9 @@ from django.urls import reverse_lazy
 from django.contrib.auth.decorators import login_required
 from .models import Post
 from .forms import ImageUploadForm
+from django.contrib.auth.decorators import login_required, user_passes_test
+from django.contrib.auth.models import User
+from django.shortcuts import redirect
 
 
 class HomePageView(ListView): #upload image
@@ -56,3 +59,19 @@ def delete_image(request, pk):
 def slidedisplay(request):
     posts = Post.objects.all().order_by('id')  #gets all posts for slideshow
     return render(request, 'display.html', {'posts': posts})
+
+#FUNCTIONS FOR MANAGE USERS PAGE
+#@login_required
+#@user_passes_test(lambda u: u.is_staff)
+def manage_users(request):
+    users = User.objects.all().order_by('username')
+    return render(request, 'manage_users.html', {'users': users})
+
+#@login_required
+#@user_passes_test(lambda u: u.is_superuser)  # Only superusers can toggle
+def toggle_superuser(request, pk):
+    if request.method == "POST":
+        user = User.objects.get(id=pk)
+        user.is_superuser = not user.is_superuser
+        user.save()
+    return redirect('manage_users')
