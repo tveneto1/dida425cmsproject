@@ -1,7 +1,5 @@
 from django.urls import path
-
-from .views import HomePageView, upload_image, all_images_view, display, delete_image
-
+from .views import (HomePageView, upload_image, all_images_view, display, delete_image, slidedisplay, manage_users, toggle_superuser)
 from . import views
 
 urlpatterns = [
@@ -10,4 +8,6 @@ urlpatterns = [
     path("allimages/", views.all_images_view, name="all_images"),
     path("delete_image/<str:pk>/", views.delete_image, name="delete_image"), #got this from tutorial, does not work :(
     path("slidedisplay/", views.slidedisplay, name="slidedisplay"),
+    path("manage-users/", views.manage_users, name="manage_users"),
+    path("toggle-superuser/<str:pk>/", views.toggle_superuser, name="toggle_superuser"),
 ]
