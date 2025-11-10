@@ -3,16 +3,33 @@
 <!DOCTYPE html>
 <html>
 
-<body>
-    <script>
-       
-        fetch('./dateline_announcements.json')
-            .then(res => res.json())
-            .then(data => {
-                console.log(data)
-                })
+<body onload="fetchAnnounce()">
+    <h2>Dateline Announcements:</h2>
 
+    <div id="jsonfile"></div>
+
+    <script>
+        // code and comments taken/adapted from tutorials
+                
+        async function fetchAnnounce() {
+      // Fetch content 
+      const fetchResponse = await   fetch('./dateline_announcements.json');
+
+      // Read the JSON content of the response and parse it to get an array
+      const messagesArray = await fetchResponse.json();
+
+      // Pick random announcement
+      const randomIndex = Math.floor(Math.random()*messagesArray.length);
+      const announcement = messagesArray[randomIndex];
+
+      // Use that message to set content and color
+      const welcomeContainer = document.getElementById("jsonfile");
+      welcomeContainer.innerText = announcement.title;
+      welcomeContainer.innerText = announcement.body;
+
+        }
     </script>
+
 </body>
 
 </html>
