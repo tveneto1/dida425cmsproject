@@ -60,6 +60,10 @@ def slidedisplay(request):
     posts = Post.objects.all().order_by('id')  #gets all posts for slideshow
     return render(request, 'display.html', {'posts': posts})
 
+#viewing dateline reader after refresh from display
+def read_dateline(request):
+    return render(request, "dateline_reader.html")
+
 #FUNCTIONS FOR MANAGE USERS PAGE
 #@login_required
 #@user_passes_test(lambda u: u.is_staff)

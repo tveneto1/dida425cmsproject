@@ -1,35 +1,52 @@
-<!-- this is where json stuff will go, incomplete right now -->
-
 <!DOCTYPE html>
 <html>
+    <head>
+        <!-- same thing as display, refresh every 24 sec, 
+         see three announcements and then go back to display.html 
+         NOT DOING THAT??? -->
+        <meta http-equiv="refresh" content="24; url={% url 'slidedisplay' %}"/>
 
-<body onload="fetchAnnounce()">
-    <h2>Dateline Announcements:</h2>
+    </head>
 
-    <div id="jsonfile"></div>
-
-    <script>
-        // code and comments taken/adapted from tutorials
+    <body>
+        <h2>Dateline Announcements:</h2>
+        
+        <div id="jsonfile"></div>
+        
+        <script>
+        // code and comments taken/adapted from tutorial:
+        // https://happycoding.io/tutorials/javascript/fetch#json 
                 
         async function fetchAnnounce() {
       // Fetch content 
-      const fetchResponse = await   fetch('./dateline_announcements.json');
+        const fetchResponse = await   fetch('./dateline_announcements.json');
 
       // Read the JSON content of the response and parse it to get an array
-      const messagesArray = await fetchResponse.json();
+        const messagesArray = await fetchResponse.json();
 
       // Pick random announcement
-      const randomIndex = Math.floor(Math.random()*messagesArray.length);
-      const announcement = messagesArray[randomIndex];
+        const randomIndex = Math.floor(Math.random()*messagesArray.length);
+        const announcement = messagesArray[randomIndex];
 
       // Use that message to set content and color
-      const welcomeContainer = document.getElementById("jsonfile");
-      welcomeContainer.innerText = announcement.title;
-      welcomeContainer.innerText = announcement.body;
+        const welcomeContainer = document.getElementById("jsonfile");
+        welcomeContainer.innerText = announcement.title;
+        welcomeContainer.innerText = announcement.body;
 
         }
+         window.onload = fetchAnnounce()
+
+
+         // to refresh the announcements automatically every 8 sec
+         // https://www.geeksforgeeks.org/javascript/how-to-automatic-refresh-a-web-page-in-fixed-time/
+        function autoRefresh() {
+            window.location = window.location.href;
+        }
+          setInterval('autoRefresh()', 8000);
+
+    
     </script>
 
-</body>
+    </body>
 
 </html>
