@@ -7,6 +7,11 @@ from .forms import ImageUploadForm
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.contrib.auth.models import User
 from django.shortcuts import redirect
+import json
+from django.http import JsonResponse
+from django.conf import settings
+import os
+
 
 
 class HomePageView(ListView): #upload image
@@ -63,6 +68,14 @@ def slidedisplay(request):
 #viewing dateline reader after refresh from display
 def read_dateline(request):
     return render(request, "dateline_reader.html")
+
+#to actually fetch json file bc django makes things difficult
+def fetch_json_view(request):
+    file_path = os.path.join(settings.BASE_DIR, 'posts', 'templates', 'dateline_announcements.json')
+    with open(file_path, 'r') as f:
+        data = json.load(f)
+    return JsonResponse(data)
+
 
 #FUNCTIONS FOR MANAGE USERS PAGE
 #@login_required

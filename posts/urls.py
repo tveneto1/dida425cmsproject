@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import (HomePageView, upload_image, all_images_view, display, delete_image, slidedisplay, manage_users, toggle_superuser, read_dateline)
+from .views import (HomePageView, upload_image, all_images_view, display, delete_image, slidedisplay, manage_users, toggle_superuser, read_dateline, fetch_json_view)
 from . import views
 
 urlpatterns = [
@@ -9,6 +9,7 @@ urlpatterns = [
     path("delete_image/<str:pk>/", views.delete_image, name="delete_image"), 
     path("slidedisplay/", views.slidedisplay, name="slidedisplay"),
     path("slidedisplay/dateline/", views.read_dateline, name="dateline"),
+    path("slidedisplay/dateline/getjson/", views.fetch_json_view, name="getjson"),
     path("manage-users/", views.manage_users, name="manage_users"),
     path("toggle-superuser/<str:pk>/", views.toggle_superuser, name="toggle_superuser"),
 ]

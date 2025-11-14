@@ -3,7 +3,7 @@
     <head>
         <!-- same thing as display, refresh every 24 sec, 
          see three announcements and then go back to display.html 
-         NOT DOING THAT??? -->
+         *WORKS* -->
         <meta http-equiv="refresh" content="24; url={% url 'slidedisplay' %}"/>
 
     </head>
@@ -19,6 +19,7 @@
                 
         async function fetchAnnounce() {
       // Fetch content 
+      // need to fetch json using a django url but i can't figure out how to get that
         const fetchResponse = await   fetch('./dateline_announcements.json');
 
       // Read the JSON content of the response and parse it to get an array
