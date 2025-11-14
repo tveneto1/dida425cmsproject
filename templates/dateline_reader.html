@@ -5,9 +5,7 @@
          see three announcements and then go back to display.html 
          *WORKS* -->
         <meta http-equiv="refresh" content="24; url={% url 'slidedisplay' %}"/>
-
     </head>
-
     <body>
         <h2>Dateline Announcements:</h2>
         
@@ -18,36 +16,27 @@
         // https://happycoding.io/tutorials/javascript/fetch#json 
                 
         async function fetchAnnounce() {
-      // Fetch content 
-      // need to fetch json using a django url but i can't figure out how to get that
-        const fetchResponse = await   fetch('./dateline_announcements.json');
-
-      // Read the JSON content of the response and parse it to get an array
-        const messagesArray = await fetchResponse.json();
-
-      // Pick random announcement
-        const randomIndex = Math.floor(Math.random()*messagesArray.length);
-        const announcement = messagesArray[randomIndex];
-
-      // Use that message to set content and color
-        const welcomeContainer = document.getElementById("jsonfile");
-        welcomeContainer.innerText = announcement.title;
-        welcomeContainer.innerText = announcement.body;
-
+            // Fetch content using Django URL
+            const fetchResponse = await fetch("{% url 'getjson' %}");
+            // Read the JSON content of the response and parse it to get an array
+            const messagesArray = await fetchResponse.json();
+            // Pick random announcement
+            const randomIndex = Math.floor(Math.random() * messagesArray.length);
+            const announcement = messagesArray[randomIndex];
+            // Use that message to set content
+            const welcomeContainer = document.getElementById("jsonfile");
+            welcomeContainer.innerHTML = `<h3>${announcement.title}</h3><p>${announcement.body}</p>`;
         }
-         window.onload = fetchAnnounce()
-
-
-         // to refresh the announcements automatically every 8 sec
-         // https://www.geeksforgeeks.org/javascript/how-to-automatic-refresh-a-web-page-in-fixed-time/
+        
+        window.onload = fetchAnnounce;
+        
+        // to refresh the announcements automatically every 8 sec
+        // https://www.geeksforgeeks.org/javascript/how-to-automatic-refresh-a-web-page-in-fixed-time/
         function autoRefresh() {
-            window.location = window.location.href;
+            fetchAnnounce(); // Just refresh the content, not the whole page
         }
-          setInterval('autoRefresh()', 8000);
-
+        setInterval(autoRefresh, 8000);
     
-    </script>
-
+        </script>
     </body>
-
 </html>
