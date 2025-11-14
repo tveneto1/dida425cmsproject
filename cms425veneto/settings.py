@@ -135,3 +135,4 @@ LOGOUT_REDIRECT_URL = 'home'
 
 #new users
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+EMAIL_FILE_PATH = BASE_DIR / 'emails'
