@@ -28,7 +28,7 @@
             welcomeContainer.innerHTML = `<h3>${announcement.title}</h3><p>${announcement.body}</p>`;
         }
         
-        window.onload = fetchAnnounce;
+        window.onload = fetchAnnounce();
         
         // to refresh the announcements automatically every 8 sec
         // https://www.geeksforgeeks.org/javascript/how-to-automatic-refresh-a-web-page-in-fixed-time/

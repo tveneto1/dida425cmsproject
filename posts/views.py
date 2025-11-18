@@ -71,10 +71,10 @@ def read_dateline(request):
 
 #to actually fetch json file bc django makes things difficult
 def fetch_json_view(request):
-    file_path = os.path.join(settings.BASE_DIR, 'posts', 'templates', 'dateline_announcements.json')
+    file_path = os.path.join(settings.BASE_DIR, 'templates', 'dateline_announcements.json')
     with open(file_path, 'r') as f:
         data = json.load(f)
-    return JsonResponse(data)
+    return JsonResponse(data, safe=False)
 
 
 #FUNCTIONS FOR MANAGE USERS PAGE

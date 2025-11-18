@@ -70,21 +70,7 @@
       <small style="color: #6c757d; font-weight: 400;">View and manage user permissions</small>
     </a>
     {% endif %}
-    
-    {% if user.is_staff %}
-    <a href="{% url 'manage_users' %}" style="display: block; padding: 20px; background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; text-decoration: none; color: #212529; transition: all 0.2s;" onmouseover="this.style.background='#e8f5f1'; this.style.borderColor='#005A43';" onmouseout="this.style.background='#f8f9fa'; this.style.borderColor='#dee2e6';">
-      <strong style="display: block; margin-bottom: 5px; color: #005A43; font-weight: 600;">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 8px;">
-          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-          <circle cx="9" cy="7" r="4"></circle>
-          <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-          <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-        </svg>
-        Manage Users
-      </strong>
-      <small style="color: #6c757d; font-weight: 400;">View and manage user permissions</small>
-    </a>
-    {% endif %}
+   
     
     <a href="{% url 'password_reset' %}" style="display: block; padding: 20px; background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; text-decoration: none; color: #212529; transition: all 0.2s;" onmouseover="this.style.background='#e8f5f1'; this.style.borderColor='#005A43';" onmouseout="this.style.background='#f8f9fa'; this.style.borderColor='#dee2e6';">
       <strong style="display: block; margin-bottom: 5px; color: #005A43; font-weight: 600;">
