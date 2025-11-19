@@ -156,9 +156,16 @@
             <p>No users found.</p>
         {% endif %}
         
+        <br>
+        <br>
+        <div style="text-align: center;">
+            <a href="{% url 'signup' %}" style="padding: 12px 24px; background: white; border: 1px solid #dee2e6; color: #212529; text-decoration: none; border-radius: 6px; transition: all 0.2s; font-weight: 400;" onmouseover="this.style.background='#f8f9fa';" onmouseout="this.style.background='white';">Create User</a>
+        </div>
+        <br>
         <div style="text-align: center;">
             <a href="{% url 'home' %}" class="home-link">← Home</a>
         </div>
+        
     </div>
 </body>
 </html>
