@@ -69,7 +69,7 @@ def slidedisplay(request):
 def read_dateline(request):
     return render(request, "dateline_reader.html")
 
-#to actually fetch json file bc django makes things difficult
+#to actually fetch json file 
 def fetch_json_view(request):
     file_path = os.path.join(settings.BASE_DIR, 'templates', 'dateline_announcements.json')
     with open(file_path, 'r') as f:
@@ -92,3 +92,7 @@ def toggle_superuser(request, pk):
         user.is_superuser = not user.is_superuser
         user.save()
     return redirect('manage_users')
+
+#viewing weather
+def weather_view(request):
+    return render(request, "weather/weather.html")
