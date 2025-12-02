@@ -1,91 +1,100 @@
 from django.shortcuts import render, redirect
-from django.views.generic import ListView, CreateView
+from django.views.generic import ListView
 from django.urls import reverse_lazy
 from django.contrib.auth.decorators import login_required
 from .models import Post
-from .forms import ImageUploadForm
-from django.contrib.auth.decorators import login_required, user_passes_test
+from .forms import ImageSlideForm, CustomContentForm, ImageUploadForm
+from django.contrib.auth.decorators import user_passes_test
 from django.contrib.auth.models import User
-from django.shortcuts import redirect
 import json
 from django.http import JsonResponse
 from django.conf import settings
 import os
+from django.contrib import messages
 
 
-
-class HomePageView(ListView): #upload image
+class HomePageView(ListView):
     model = Post
     template_name = "uploaded_images.html"
 
-def display(request): #Get the most recent uploaded image (eventually make this into featured list, choose what to display)
-    latest_post = Post.objects.order_by('-id').first() #ID??
+
+def display(request):
+    """Get the most recent uploaded image"""
+    latest_post = Post.objects.order_by('-id').first()
     return render(request, 'display.html', {'post': latest_post})
 
-#UPDATED -> passes along images to template so can view uploaded
+
 def all_images_view(request):
-    posts = Post.objects.all().order_by('-id')  #get all posts, newest first
+    """Display all posts (images and custom content)"""
+    posts = Post.objects.all().order_by('-id')
     return render(request, "uploaded_images.html", {'object_list': posts})
 
 
-#two funcs below are doing same thing???
-#yes but if we get rid of this one things go wrong so we're keeping it
-#class CreatePostView(CreateView):  
- #   model = Post
-  #  form_class = ImageUploadForm
-   # template_name = "post.html"
-#    success_url = reverse_lazy("home") #UNCOMMENT, needs to know where to go after successful
-
-
-#UPDATED
 def upload_image(request):
+    """NEW: Handle both image slide and custom content uploads"""
     if not request.user.is_staff:
         return redirect('home')
     
     if request.method == 'POST':
-        form = ImageUploadForm(request.POST, request.FILES)  # Fixed: was UploadImageForm
-        if form.is_valid():
-            form.save()
-            return redirect('all_images')  # Fixed: was 'post' REDIRECT BACK TO ALL IMAGES
-    else:
-        form = ImageUploadForm()  # Fixed: Create empty form
+        # Check which form was submitted
+        if 'image_submit' in request.POST:
+            form = ImageSlideForm(request.POST, request.FILES)
+            if form.is_valid():
+                content = form.save(commit=False)
+                content.content_type = 'image'
+                content.save()
+                messages.success(request, 'Image slide uploaded successfully!')
+                return redirect('all_images')
+            else:
+                messages.error(request, 'Please correct the errors in the image form.')
+        
+        elif 'custom_submit' in request.POST:
+            form = CustomContentForm(request.POST)
+            if form.is_valid():
+                content = form.save(commit=False)
+                content.content_type = 'custom'
+                content.save()
+                messages.success(request, 'Custom content uploaded successfully!')
+                return redirect('all_images')
+            else:
+                messages.error(request, 'Please correct the errors in the custom content form.')
     
-    return render(request, 'post.html', {'form': form})  # Fixed: Pass form to template
+    return render(request, 'post.html')
 
 
-#deleting images
 def delete_image(request, pk):
+    """Delete images or custom content"""
     if request.method == "POST": 
         post = Post.objects.filter(id=pk) 
         post.delete() 
     return redirect('all_images')
 
-#function to make uploaded images show up on slideshow display
+
 def slidedisplay(request):
-    posts = Post.objects.all().order_by('id')  #gets all posts for slideshow
+    """Function to show both images and custom content in slideshow"""
+    posts = Post.objects.all().order_by('id')  
     return render(request, 'display.html', {'posts': posts})
 
-#viewing dateline reader after refresh from display
+
 def read_dateline(request):
+    """Viewing dateline reader after refresh from display"""
     return render(request, "dateline_reader.html")
 
-#to actually fetch json file 
+
 def fetch_json_view(request):
+    """To actually fetch json file"""
     file_path = os.path.join(settings.BASE_DIR, 'templates', 'dateline_announcements.json')
     with open(file_path, 'r') as f:
         data = json.load(f)
     return JsonResponse(data, safe=False)
 
 
-#FUNCTIONS FOR MANAGE USERS PAGE
-#@login_required
-#@user_passes_test(lambda u: u.is_staff)
+# FUNCTIONS FOR MANAGE USERS PAGE
 def manage_users(request):
     users = User.objects.all().order_by('username')
     return render(request, 'manage_users.html', {'users': users})
 
-#@login_required
-#@user_passes_test(lambda u: u.is_superuser)  # Only superusers can toggle
+
 def toggle_superuser(request, pk):
     if request.method == "POST":
         user = User.objects.get(id=pk)
@@ -93,6 +102,7 @@ def toggle_superuser(request, pk):
         user.save()
     return redirect('manage_users')
 
-#viewing weather
+
 def weather_view(request):
+    """Viewing weather"""
     return render(request, "weather/weather.html")
