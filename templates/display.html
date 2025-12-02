@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display</title>
-    <!-- below tag refreshes page every 24 sec, so we'll see three images and then refresh to dateline
-     *WORKS* -->
     <meta http-equiv="refresh" content="23; url={% url 'dateline' %}"/>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        
         * {
             box-sizing: border-box;
             margin: 0;
@@ -17,6 +17,7 @@
         body, html {
             background: black;
             overflow: hidden;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         }
 
         .slideshow-container {
@@ -41,10 +42,77 @@
             display: flex;
         }
         
+        /* Image slide styles */
         img.fullscreen-image {
             max-width: 100%;
             max-height: 100%;
             object-fit: contain;
+        }
+        
+        /* Custom content slide styles */
+        .custom-slide {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px;
+            background: linear-gradient(135deg, #005A43 0%, #003d2e 100%);
+            color: white;
+        }
+        
+        .custom-slide-title {
+            font-size: 64px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #e8f5f1;
+        }
+        
+        .custom-slide-description {
+            font-size: 32px;
+            line-height: 1.6;
+            max-width: 1200px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .custom-slide-description p {
+            margin-bottom: 20px;
+        }
+        
+        .custom-slide-description ul,
+        .custom-slide-description ol {
+            text-align: left;
+            display: inline-block;
+            margin: 20px 0;
+        }
+        
+        .custom-slide-description li {
+            margin: 10px 0;
+        }
+        
+        .custom-slide-description strong {
+            color: #e8f5f1;
+        }
+        
+        .custom-slide-link {
+            display: inline-block;
+            padding: 20px 40px;
+            background: white;
+            color: #005A43;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 24px;
+            font-weight: 600;
+            transition: all 0.3s;
+            margin-top: 20px;
+        }
+        
+        .custom-slide-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(255,255,255,0.3);
         }
         
         .no-image {
@@ -63,13 +131,31 @@
         {% if posts %}
             {% for post in posts %}
                 <div class="mySlides">
-                    <img src="{{ post.cover.url }}" alt="{{ post.title }}" class="fullscreen-image">
+                    {% if post.content_type == 'image' and post.cover %}
+                        <!-- Image Slide -->
+                        <img src="{{ post.cover.url }}" alt="{{ post.title }}" class="fullscreen-image">
+                    {% elif post.content_type == 'custom' %}
+                        <!-- Custom Content Slide -->
+                        <div class="custom-slide">
+                            <h1 class="custom-slide-title">{{ post.title }}</h1>
+                            {% if post.description %}
+                                <div class="custom-slide-description">
+                                    {{ post.description|safe }}
+                                </div>
+                            {% endif %}
+                            {% if post.link %}
+                                <a href="{{ post.link }}" target="_blank" class="custom-slide-link">
+                                    Learn More →
+                                </a>
+                            {% endif %}
+                        </div>
+                    {% endif %}
                 </div>
             {% endfor %}
 
         {% else %}
             <div class="no-image">
-                No images uploaded yet.
+                No content uploaded yet.
             </div>
         {% endif %}
     </div>
@@ -96,7 +182,7 @@
             // SHOW CURRENT SLIDE
             slides[slideIndex - 1].classList.add("active");
             
-            // EACH SLIDE ON FOR 8 SECS (CHANGE??)
+            // EACH SLIDE ON FOR 8 SECS
             setTimeout(showSlides, 8000);
         }
 
