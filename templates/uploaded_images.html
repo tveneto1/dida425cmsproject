@@ -13,7 +13,7 @@
         }
         
         .container {
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 40px auto;
             padding: 20px;
         }
@@ -64,7 +64,7 @@
         .table td {
             padding: 15px;
             border-bottom: 1px solid #dee2e6;
-            vertical-align: middle;
+            vertical-align: top;
         }
         
         .table tbody tr:hover {
@@ -78,6 +78,82 @@
         .table img {
             border-radius: 6px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .content-cell {
+            max-width: 500px;
+        }
+        
+        .content-title {
+            font-weight: 600;
+            color: #005A43;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .content-description {
+            color: #666;
+            line-height: 1.6;
+            font-size: 14px;
+            margin-top: 8px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        
+        .content-description:empty {
+            display: none;
+        }
+        
+        /* Style the HTML content */
+        .content-description p {
+            margin: 0 0 8px 0;
+        }
+        
+        .content-description ul,
+        .content-description ol {
+            margin: 8px 0;
+            padding-left: 20px;
+        }
+        
+        .content-description li {
+            margin: 4px 0;
+        }
+        
+        .content-description strong {
+            color: #005A43;
+        }
+        
+        .content-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 6px 12px;
+            background: #005A43;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        
+        .content-link:hover {
+            background: #004532;
+        }
+        
+        .custom-content-placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+            height: 150px;
+            background: #f8f9fa;
+            border: 2px dashed #dee2e6;
+            border-radius: 6px;
+            color: #999;
+            font-weight: 600;
         }
         
         .delete-btn {
@@ -141,27 +217,65 @@
                 <polyline points="17 8 12 3 7 8"></polyline>
                 <line x1="12" y1="3" x2="12" y2="15"></line>
             </svg>
-            Upload New Image
+            Upload New Content
         </a>
         
         {% if object_list %}
             <table class="table">
                 <thead>
                     <tr>
-                        <th>Image</th>
-                        <th>Description</th>
+                        <th>File Type</th>
+                        <th>Preview</th>
+                        <th>Content</th>
                         <th>Delete</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for post in object_list %}
                         <tr>
-                            <td><img src="{{ post.cover.url }}" alt="{{ post.title }}" width="250"></td>
-                            <td>{{ post.title }}</td>
+                            <td>
+                                {% if post.content_type == 'image' %}
+                                    Image Slide
+                                {% else %}
+                                    Custom Content
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if post.content_type == 'image' and post.cover %}
+                                    <img src="{{ post.cover.url }}" alt="{{ post.title }}" width="250">
+                                {% else %}
+                                    <div class="custom-content-placeholder">
+                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                            <polyline points="14 2 14 8 20 8"></polyline>
+                                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                                        </svg>
+                                    </div>
+                                {% endif %}
+                            </td>
+                            <td class="content-cell">
+                                <div class="content-title">{{ post.title }}</div>
+                                {% if post.description %}
+                                    <div class="content-description">
+                                        {{ post.description|safe }}
+                                    </div>
+                                {% endif %}
+                                {% if post.link %}
+                                    <a href="{{ post.link }}" target="_blank" class="content-link">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 4px;">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                        Visit Link
+                                    </a>
+                                {% endif %}
+                            </td>
                             <td>
                                 <form action="{% url 'delete_image' post.pk %}" method="POST">
                                     {% csrf_token %}
-                                    <button type="submit" class="delete-btn">Delete</button>
+                                    <button type="submit" class="delete-btn" onclick="return confirm('Are you sure you want to delete this content?')">Delete</button>
                                 </form>
                             </td>
                         </tr>
@@ -170,7 +284,7 @@
             </table>
         {% else %}
             <div class="no-images">
-                <p>No images yet. Click button above to upload!</p>
+                <p>No content yet. Click button above to upload!</p>
             </div>
         {% endif %}
         
