@@ -34,7 +34,7 @@ class Post(models.Model):
         return f"{self.get_content_type_display()} - {self.title}"
     
     # Overriding built-in model delete
-    # Means that the deleted file also gets deleted from images folder within project
+    # Means that the deleted file also gets deleted from database
     def delete(self, *args, **kwargs):
         if self.cover:
             self.cover.delete(save=False)
