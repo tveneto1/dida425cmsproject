@@ -83,10 +83,33 @@ def read_dateline(request):
 
 def fetch_json_view(request):
     """To actually fetch json file"""
-    file_path = os.path.join(settings.BASE_DIR, 'templates', 'dateline_announcements.json')
-    with open(file_path, 'r') as f:
-        data = json.load(f)
-    return JsonResponse(data, safe=False)
+    try:
+        file_path = os.path.join(settings.BASE_DIR, 'templates', 'dateline_announcements.json')
+        
+        # Debugging
+        print(f"=== FETCH JSON DEBUG ===")
+        print(f"BASE_DIR: {settings.BASE_DIR}")
+        print(f"Looking for file at: {file_path}")
+        print(f"File exists: {os.path.exists(file_path)}")
+        
+        if not os.path.exists(file_path):
+            print(f"ERROR: File not found!")
+            return JsonResponse({'error': 'File not found', 'path': file_path}, status=404)
+        
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        print(f"Successfully loaded {len(data)} announcements")
+        return JsonResponse(data, safe=False)
+        
+    except json.JSONDecodeError as e:
+        print(f"JSON DECODE ERROR: {e}")
+        return JsonResponse({'error': 'Invalid JSON', 'details': str(e)}, status=500)
+    except Exception as e:
+        print(f"UNEXPECTED ERROR: {type(e).__name__}: {e}")
+        import traceback
+        traceback.print_exc()
+        return JsonResponse({'error': 'Server error', 'details': str(e)}, status=500)
 
 
 # FUNCTIONS FOR MANAGE USERS PAGE
