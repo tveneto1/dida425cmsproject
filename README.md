@@ -19,7 +19,7 @@ The system provides a secure and efficient way to handle digital display content
 - Scalable structure for future enhancements
 
 
-##  Project Walkthrough
+##  Project Files 
 
 The Django project is organized into several key components that together support the CMS’s functionality:
 
@@ -37,6 +37,30 @@ Users interact with the system through a set of HTML templates located in the **
 - **`display.html`** – Presents a full-screen view of the most recently uploaded image, with planned functionality to cycle through all uploaded images automatically.
 
 Together, these components form a cohesive Django-based CMS where authenticated users can upload, view, and manage display content securely.
+
+## How it Works 
+### Log in Page 
+- Log in, change password, 
+
+### Welcome Banner and Hamburger Menu
+- Displays 'Welcome Back ' followed by the username
+- Has three features/buttons ,'Upload Content', 'Manage Slides', and 'Start Display'.
+
+### Upload Content 
+- Where users are able to upload images for the slideshow
+- Only receives pg, jpeg, and pdf  file types
+- Also where users can customize content
+- Can add title text and body text, adding a link is optional
+
+### Manage Slides 
+- Displays what has been uploaded note: anything here will be dispayed in the slideshow
+- Description of each image 
+- Delete button
+
+
+### Starts Display 
+- Begins the slideshow
+
 
 ##  Sources
 
