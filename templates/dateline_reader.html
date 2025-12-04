@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- same thing as display, refresh every 24 sec, 
-         see three announcements and then go back to display.html 
-         *WORKS* -->
         <meta http-equiv="refresh" content="23; url={% url 'weather_view' %}"/>
 
         <style>
@@ -61,34 +58,48 @@
     <body>
         <h2 style="text-align: center;">Dateline Announcements:</h2>
         
-        <div id="jsonfile"></div>
+        <div id="jsonfile">Loading announcements...</div>
         
         <script>
-        // code and comments taken/adapted from tutorial:
-        // https://happycoding.io/tutorials/javascript/fetch#json 
-                
         async function fetchAnnounce() {
-            // Fetch content using Django URL
-            const fetchResponse = await fetch("{% url 'getjson' %}");
-            // Read the JSON content of the response and parse it to get an array
-            const messagesArray = await fetchResponse.json();
-            // Pick random announcement
-            const randomIndex = Math.floor(Math.random() * messagesArray.length);
-            const announcement = messagesArray[randomIndex];
-            // Use that message to set content
-            const welcomeContainer = document.getElementById("jsonfile");
-            welcomeContainer.innerHTML = `<h3>${announcement.title}</h3><p>${announcement.body}</p>`;
+            try {
+                const fetchResponse = await fetch("{% url 'getjson' %}");
+                
+                if (!fetchResponse.ok) {
+                    throw new Error(`HTTP error! status: ${fetchResponse.status}`);
+                }
+                
+                const messagesArray = await fetchResponse.json();
+                
+                if (messagesArray.length === 0) {
+                    document.getElementById("jsonfile").innerHTML = '<p>No announcements available.</p>';
+                    return;
+                }
+                
+                // Pick random announcement
+                const randomIndex = Math.floor(Math.random() * messagesArray.length);
+                const announcement = messagesArray[randomIndex];
+                
+                // Display the announcement
+                const welcomeContainer = document.getElementById("jsonfile");
+                welcomeContainer.innerHTML = `
+                    <span class="category">${announcement.category}</span>
+                    <h3>${announcement.title}</h3>
+                    <p>${announcement.body}</p>
+                `;
+                
+            } catch (error) {
+                console.error('Error fetching announcements:', error);
+                document.getElementById("jsonfile").innerHTML = 
+                    '<p style="color: red;">Error loading announcements.</p>';
+            }
         }
         
-        window.onload = fetchAnnounce();
+        // Initial load
+        window.onload = fetchAnnounce;
         
-        // to refresh the announcements automatically every 8 sec
-        // https://www.geeksforgeeks.org/javascript/how-to-automatic-refresh-a-web-page-in-fixed-time/
-        function autoRefresh() {
-            fetchAnnounce(); // Just refresh the content, not the whole page
-        }
-        setInterval(autoRefresh, 8000);
-    
+        // Auto-refresh every 8 seconds
+        setInterval(fetchAnnounce, 8000);
         </script>
     </body>
 </html>
