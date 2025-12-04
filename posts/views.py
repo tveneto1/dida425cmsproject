@@ -129,3 +129,5 @@ def toggle_superuser(request, pk):
 def weather_view(request):
     """Viewing weather"""
     return render(request, "weather/weather.html")
+
+    

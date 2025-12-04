@@ -15,10 +15,12 @@ function initMap(){
     dragging:false,
     scrollWheelZoom:false
   });
-  const Stadia_AlidadeSatellite = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.{ext}', {
-    minZoom:0, maxZoom:20, ext:'jpg'
+
+  
+  const OpenStreetMap_HOT = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+    minZoom:0, maxZoom:20
   });
-  Stadia_AlidadeSatellite.addTo(map);
+  OpenStreetMap_HOT.addTo(map);
 }
 
 /* ===== Timeline ===== */
