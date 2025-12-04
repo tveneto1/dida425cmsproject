@@ -165,6 +165,9 @@
 
     <script>
         let slideIndex = 0;
+        let cycleCount = 0;
+        const CYCLES_BEFORE_REDIRECT = 1; // Number of complete cycles before redirecting
+        const SLIDE_DURATION = 8000; // 8 seconds per slide
 
         function showSlides() {
             const slides = document.getElementsByClassName("mySlides");
@@ -178,15 +181,24 @@
             
             // GO TO NEXT SLIDE
             slideIndex++;
+            
+            // CHECK IF WE'VE COMPLETED A FULL CYCLE
             if (slideIndex > slides.length) {
                 slideIndex = 1;
+                cycleCount++;
+                
+                // REDIRECT TO DATELINE AFTER SPECIFIED NUMBER OF CYCLES
+                if (cycleCount >= CYCLES_BEFORE_REDIRECT) {
+                    window.location.href = "{% url 'dateline' %}";
+                    return;
+                }
             }
             
             // SHOW CURRENT SLIDE
             slides[slideIndex - 1].classList.add("active");
             
             // EACH SLIDE ON FOR 8 SECS
-            setTimeout(showSlides, 8000);
+            setTimeout(showSlides, SLIDE_DURATION);
         }
 
         // TO LAUNCH SLIDESHOW
