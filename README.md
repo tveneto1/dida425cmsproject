@@ -5,7 +5,7 @@ This project is a **Content Management System (CMS)** built with **Django**.
 It allows **administrators** to manage users and permissions, while **content editors** can upload and manage slides that appear on the display interface.  
 The system provides a secure and efficient way to handle digital display content for multiple users.
 
-**Note:** this project is still in development, so parts of this file are subject to change.
+This file will walk through some basic features implemented in the project, the different files within the project, various resources used, and finally the documentation to explain _how_ these features work in action.
 
 
 
@@ -38,30 +38,6 @@ Users interact with the system through a set of HTML templates located in the **
 
 Together, these components form a cohesive Django-based CMS where authenticated users can upload, view, and manage display content securely.
 
-## How it Works 
-### Log in Page 
-- Log in, change password, 
-
-### Welcome Banner and Hamburger Menu
-- Displays 'Welcome Back ' followed by the username
-- Has three features/buttons ,'Upload Content', 'Manage Slides', and 'Start Display'.
-
-### Upload Content 
-- Where users are able to upload images for the slideshow
-- Only receives pg, jpeg, and pdf  file types
-- Also where users can customize content
-- Can add title text and body text, adding a link is optional
-
-### Manage Slides 
-- Displays what has been uploaded note: anything here will be dispayed in the slideshow
-- Description of each image 
-- Delete button
-
-
-### Starts Display 
-- Begins the slideshow
-
-
 ##  Sources
 
 Below are the main tutorials and documentation used in the development of this Django CMS project:
@@ -84,3 +60,29 @@ Below are the main tutorials and documentation used in the development of this D
 ### User Authentication & Permissions
 - [Django Authentication and Permissions – MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Authentication)  
 - [Django Login, Logout, and Signup Tutorial – LearnDjango](https://learndjango.com/tutorials/django-login-and-logout-tutorial)
+
+
+
+## HOW IT WORKS (DOCUMENTATION) 
+### Different Users and Permissions 
+- Log in, change password, 
+
+### Home Screen
+
+### Upload Content 
+There are two different types of content a user can upload: **image slides** and **custom content**. When within this webpage, the user can only do one type of upload at a time, because after the submission goes through, the page redirects to Manage Slides.
+
+The **Image Upload** is on the left side of the screen, and requires both the **title** and **choose file** fields to be completed for a valid submission. The title should be used as a description for the image. It will not appear anywhere within the slideshow, only in the table of uploaded content to help with organization. The choose file field is where the image itself is chosen. The particular field only accepts **.png**, **.jpg**, **.jpeg**, and **.pdf** files. Anything else will lead to a failed submission attempt.
+
+_Important note for .pdf uploads_: only the first page of a PDF file will be included in the slideshow, regardless of how many pages it may contain.
+
+The **Custom Content** input is on the right side of the screen, and requires both the **title** and **description** fields, with the optional **link** field at the bottom. These text boxes let the user type in the text they wish to display without the need to format it as an image file, allowing for quick and easy announcements to be added. Each field will be displayed as text within the slideshow rotation. The title is header text, the description is subheading text, and, if included, the link is body text.
+
+
+### Manage Slides 
+- Displays what has been uploaded note: anything here will be dispayed in the slideshow
+- Description of each image 
+- Delete button
+
+### Start Display 
+- Begins the slideshow
