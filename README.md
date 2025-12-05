@@ -1,4 +1,4 @@
-# Django CMS Project 
+# CMS425
 ### Lillian Pulaski, Kaymora Roberts, Aliana Slaven, Taylor Veneto
 
 This project is a **Content Management System (CMS)** built with **Django**.  
@@ -11,7 +11,7 @@ This file will walk through some basic features implemented in the project, the 
 
 ##  Features
 
-- Role-based access control (Administrators vs. Editors)
+- Role-based access control (Admin vs. Standard)
 - Secure authentication and session management
 - Slide upload and organization system
 - Automatic incorporation of uploaded slides into the display rotation
@@ -64,18 +64,24 @@ Below are the main tutorials and documentation used in the development of this D
 
 
 ## HOW IT WORKS (DOCUMENTATION) 
-### Different Users and Permissions 
-- Different kinds / permissions
-- 
-- Creating users
-- Find it within welcome banner hamburger menu after logging in
-- Upgrade / downgrade
-- Created as standard user, have to be upgraded to admin if necessary
-- Need to fill out all fields in signup form
-- 
-- Password stuff
-- Get email to reset
-- Can change before or after logging in (if forgot or want to update it for whatever reason)
+
+### Download / Access
+
+### User Permissions and Accounts
+CMS425 includes two different types of users, each with different permissions. A **standard user** can upload content, delete content, and test the slideshow capabilities. An **admin user** can do these actions as well, but they also have the ability to **create** users, **upgrade** a standard user to admin status, or **downgrade** an admin user to standard. Dealing with the other user permissions is the key difference between admin users and standard users.
+
+If an admin user needs to create a new user, the page to do so is found in the hamburger dropdown menu, under **Manage Users**. This option does not appear for standard users. Once on that page, the user sees a table with usernames, email addresses, superuser (admin) status, and a button to either upgrade or downgrade a specific user. Upgrading a user gives it admin status, while downgrading a user takes that status away. 
+
+Beneath the table, there is a **create user** button, which goes to a sign up box. Each field — email, username, password, and password confirmation — is required to create a user. The email address is necessary for any potential password resets, which will be explained in depth below. As of right now, deleting users is not possible.
+
+_**Important to note:**_ when a user is created, it only has **standard permissions**. If this new user needs admin capabilities, it must then be **upgraded**.
+
+A **password change/reset** can happen if a user is logged in or not. If the user is logged in, one can find that option in the hamburger dropdown menu. It is also available on the log in page. After pressing either button, the user will be prompted to input the email address associated with that account, in order to recieve an email with a reset link. Follow the steps in the email, and once the password is reset, the user can log in with their new password.
+
+
+### Home Screen
+Once the user is logged in, they are brought to the CMS425 home screen. The user can access all the functions of the website from here, the most important being the three square buttons in the center of the screen: **Upload Content**, **Manage Slides**, and **Start Display**. The footer includes the yeaar of publication, as well as a link to this GitHub (About CMS425).
+
 
 ### Upload Content 
 There are two different types of content a user can upload: **image slides** and **custom content**. When within this webpage, the user can only do one type of upload at a time, because after the submission goes through, the page redirects to Manage Slides.
@@ -88,14 +94,13 @@ The **Custom Content** input is on the right side of the screen, and requires bo
 
 
 ### Manage Slides 
-- Shows what has been uploaded, also option to go back to Upload Content to add more stuff
-- Anything here will be in the slideshow
-- 
-- File type column
-- 
-- Preview (image slide only)
-- 
-- Delete button to delete it from the rotation
+This page can be accessed directly from the home page, or after submitting content from Upload Content. It shows everything that has been uploaded in a table for easy viewing. **All items in this table will be in the slideshow**. If necessary, the user can navigate back to Upload Content via the green button above the table.
+
+The **file type** column specifies if the uploaded content is an image slide or custom content. For image slides only, there is a **preview** of what the image will look like in the slideshow rotation. For custom content, that column will be empty. The **description** column includes the title from Upload Content, and for custom content, also has the input from the description and link fields.
+
+On the far right, a user can **delete** the uploaded content. Doing so removes that item from the table, and also from the slideshow rotation. If an item was deleted accidentally, it can be uploaded again.
+
+To reiterate an important point: **all items in this table will be featured in the slideshow**. If an item needs to removed from the slideshow, **it must be deleted within Manage Slides**.
 
 
 ### Start Display
