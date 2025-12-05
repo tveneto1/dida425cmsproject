@@ -100,7 +100,7 @@ The **file type** column specifies if the uploaded content is an image slide or 
 
 On the far right, a user can **delete** the uploaded content. Doing so removes that item from the table, and also from the slideshow rotation. If an item was deleted accidentally, it can be uploaded again.
 
-To reiterate an important point: **all items in this table will be featured in the slideshow**. If an item needs to removed from the slideshow, **it must be deleted within Manage Slides**.
+**_To reiterate an important point_: all items in this table will be featured in the slideshow. If an item needs to removed from the slideshow, it must be deleted within Manage Slides.**
 
 
 ### Start Display
