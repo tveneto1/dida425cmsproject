@@ -65,9 +65,17 @@ Below are the main tutorials and documentation used in the development of this D
 
 ## HOW IT WORKS (DOCUMENTATION) 
 ### Different Users and Permissions 
-- Log in, change password, 
-
-### Home Screen
+- Different kinds / permissions
+- 
+- Creating users
+- Find it within welcome banner hamburger menu after logging in
+- Upgrade / downgrade
+- Created as standard user, have to be upgraded to admin if necessary
+- Need to fill out all fields in signup form
+- 
+- Password stuff
+- Get email to reset
+- Can change before or after logging in (if forgot or want to update it for whatever reason)
 
 ### Upload Content 
 There are two different types of content a user can upload: **image slides** and **custom content**. When within this webpage, the user can only do one type of upload at a time, because after the submission goes through, the page redirects to Manage Slides.
@@ -80,9 +88,21 @@ The **Custom Content** input is on the right side of the screen, and requires bo
 
 
 ### Manage Slides 
-- Displays what has been uploaded note: anything here will be dispayed in the slideshow
-- Description of each image 
-- Delete button
+- Shows what has been uploaded, also option to go back to Upload Content to add more stuff
+- Anything here will be in the slideshow
+- 
+- File type column
+- 
+- Preview (image slide only)
+- 
+- Delete button to delete it from the rotation
+
 
 ### Start Display 
-- Begins the slideshow
+- Includes any uploaded content within Manage Slides
+- Goes through all of those and then:
+- 
+- Automatic B-line scraper
+- Shows three randomly and then:
+- 
+- Binghamton weather dashboard
