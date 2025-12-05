@@ -80,7 +80,7 @@ Below are the main tutorials and documentation used in the development of this D
 ### Upload Content 
 There are two different types of content a user can upload: **image slides** and **custom content**. When within this webpage, the user can only do one type of upload at a time, because after the submission goes through, the page redirects to Manage Slides.
 
-The **Image Upload** is on the left side of the screen, and requires both the **title** and **choose file** fields to be completed for a valid submission. The title should be used as a description for the image. It will not appear anywhere within the slideshow, only in the table of uploaded content to help with organization. The choose file field is where the image itself is chosen. The particular field only accepts **.png**, **.jpg**, **.jpeg**, and **.pdf** files. Anything else will lead to a failed submission attempt.
+The **Image Upload** is on the left side of the screen, and requires both the **title** and **choose file** fields to be completed for a valid submission. The title should be used as a description for the image. It will not appear anywhere within the slideshow, only in the table of uploaded content to help with organization. The choose file field is where the image itself is chosen. This particular field only accepts **.png**, **.jpg**, **.jpeg**, and **.pdf** files. Anything else will lead to a failed submission attempt. Both horizontal and vertical images can be accepted and displayed without issue.
 
 _Important note for .pdf uploads_: only the first page of a PDF file will be included in the slideshow, regardless of how many pages it may contain.
 
@@ -98,11 +98,11 @@ The **Custom Content** input is on the right side of the screen, and requires bo
 - Delete button to delete it from the rotation
 
 
-### Start Display 
-- Includes any uploaded content within Manage Slides
-- Goes through all of those and then:
-- 
-- Automatic B-line scraper
-- Shows three randomly and then:
-- 
-- Binghamton weather dashboard
+### Start Display
+The Start Display button launches the slideshow within the browser for the user to test what it will look like after adding or deleting any content. To return to the home screen, press the back arrow by the URL bar until at the desired location. 
+
+This rotating carousel display has three main features. The first is all of the uploaded content visible in Manage Slides. The slideshow will automatically display each of these items one at a time, with the images fitting the height of the screen, and the Custom Content input displayed as white text on a green background for easier readability. It begins with the item at the bottom of the Manage Slides table, and works it way up to the most recently submitted content.
+
+After going through all of the uploaded content, the slideshow changes to the automatically scraped B-Line announcements for the day. These are randomly chosen from their stored file, and shown, once again, one at a time in the same rotating fashion as the uploaded content. Three of these will be displayed, and then the carousel changes one final time to the Binghamton weather. This dashboard has a dynamic radar map, as well as the temperature and weather conditions for the present day, present night, and next day. Once the weather slide times out, the whole rotation begins again.
+
+This slideshow is what will be on the DiDa department television, but having a way to test it within the user's browser is beneficial to double check that all the necessary information has made it into the display, or to see if an item needs to be deleted. 
