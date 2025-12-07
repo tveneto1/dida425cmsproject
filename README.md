@@ -2,7 +2,7 @@
 ### Lillian Pulaski, Kaymora Roberts, Aliana Slaven, Taylor Veneto
 
 This project is a **Content Management System (CMS)** built with **Django**.  
-It allows **administrators** to manage users and permissions, while **content editors** can upload and manage slides that appear on the display interface.  
+It allows **administrators** to manage users and permissions, while **standard users** can upload and manage slides that appear on the display interface.  
 The system provides a secure and efficient way to handle digital display content for multiple users.
 
 This file will walk through some basic features implemented in the project, the different files within the project, various resources used, and finally the documentation to explain _how_ these features work in action.
@@ -30,11 +30,16 @@ The Django project is organized into several key components that together suppor
 
 Users interact with the system through a set of HTML templates located in the **`templates/`** directory:
 
-- **`signup.html`** and **`login.html`** – Handle user registration and authentication processes.
+- **`dateline_reader.html`** – Reads the scraped B-line data from **`dateline_announcements.json`** one at a time in a randomized order.
+- **`display.html`** – Presents a full-screen, rotating view of all uploaded content.
 - **`home.html`** – Serves as the user dashboard, welcoming users and providing navigation buttons to other pages.
-- **`post.html`** – An admin-only page featuring a form interface for uploading slide images.
-- **`uploaded_images.html`** – Displays all uploaded images and includes a delete button for removing entries from the database.
-- **`display.html`** – Presents a full-screen view of the most recently uploaded image, with planned functionality to cycle through all uploaded images automatically.
+- **`manage_users.html`** – Provides admin users with the functions to upgrade/downgrade user permissions and to create new users.
+- **`post.html`** – Features a form interface for uploading image slides and custom text content.
+- **`uploaded_images.html`** – Displays all uploaded content and includes a delete button for removing entries from the slideshow.
+
+The **`registration/`** subdirectory handles all user registration and password changing processes.
+
+The **`static`** subdirectory stores the CSS and JavaScript files necessary to stylize the **`weather.html`** file, which is found within the **`weather`** subdirectory.
 
 Together, these components form a cohesive Django-based CMS where authenticated users can upload, view, and manage display content securely.
 
@@ -74,7 +79,7 @@ If an admin user needs to create a new user, the page to do so is found in the h
 
 Beneath the table, there is a **create user** button, which goes to a sign up box. Each field — email, username, password, and password confirmation — is required to create a user. The email address is necessary for any potential password resets, which will be explained in depth below. As of right now, deleting users is not possible.
 
-_**Important to note:**_ when a user is created, it only has **standard permissions**. If this new user needs admin capabilities, it must then be **upgraded**.
+_**IMPORTANT TO NOTE:**_ when a user is created, it only has **standard permissions**. If this new user needs admin capabilities, it must then be **upgraded**.
 
 A **password change/reset** can happen if a user is logged in or not. If the user is logged in, one can find that option in the hamburger dropdown menu. It is also available on the log in page. After pressing either button, the user will be prompted to input the email address associated with that account, in order to recieve an email with a reset link. Follow the steps in the email, and once the password is reset, the user can log in with their new password.
 
@@ -88,7 +93,7 @@ There are two different types of content a user can upload: **image slides** and
 
 The **Image Upload** is on the left side of the screen, and requires both the **title** and **choose file** fields to be completed for a valid submission. The title should be used as a description for the image. It will not appear anywhere within the slideshow, only in the table of uploaded content to help with organization. The choose file field is where the image itself is chosen. This particular field only accepts **.png**, **.jpg**, **.jpeg**, and **.pdf** files. Anything else will lead to a failed submission attempt. Both horizontal and vertical images can be accepted and displayed without issue.
 
-_Important note for .pdf uploads_: only the first page of a PDF file will be included in the slideshow, regardless of how many pages it may contain.
+_**Important note for .pdf uploads**_: only the first page of a PDF file will be included in the slideshow, regardless of how many pages it may contain.
 
 The **Custom Content** input is on the right side of the screen, and requires both the **title** and **description** fields, with the optional **link** field at the bottom. These text boxes let the user type in the text they wish to display without the need to format it as an image file, allowing for quick and easy announcements to be added. Each field will be displayed as text within the slideshow rotation. The title is header text, the description is subheading text, and, if included, the link is body text.
 
@@ -100,7 +105,7 @@ The **file type** column specifies if the uploaded content is an image slide or 
 
 On the far right, a user can **delete** the uploaded content. Doing so removes that item from the table, and also from the slideshow rotation. If an item was deleted accidentally, it can be uploaded again.
 
-**_To reiterate an important point_: all items in this table will be featured in the slideshow. If an item needs to removed from the slideshow, it must be deleted within Manage Slides.**
+**_TO REITERATE AN IMPORTANT POINT_: all items in this table will be featured in the slideshow. If an item needs to removed from the slideshow, it must be deleted within Manage Slides.**
 
 
 ### Start Display
