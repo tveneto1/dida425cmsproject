@@ -143,3 +143,19 @@ LOGOUT_REDIRECT_URL = 'home'
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 EMAIL_FILE_PATH = BASE_DIR / 'emails'
 
+#celery tasks
+CELERY_BROKER_URL = "redis://localhost:6379/0"  # Redis server URL
+CELERY_RESULT_BACKEND = "redis://localhost:6379/0"  # Store task results
+
+from celery.schedules import crontab  # Used for scheduled tasks
+
+CELERY_BEAT_SCHEDULE = {
+    "turn_tv_on_every_morning": {
+        "task": "slides.tasks.turn_tv_on",
+        "schedule": crontab(hour=8, minute=0),  # Runs at 8:00 AM
+    },
+    "turn_tv_off_every_evening": {
+        "task": "slides.tasks.turn_tv_off",
+        "schedule": crontab(hour=17, minute=0),  # Runs at 5:00 PM
+    },
+}

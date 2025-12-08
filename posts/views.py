@@ -32,9 +32,6 @@ def all_images_view(request):
 
 def upload_image(request):
     """NEW: Handle both image slide and custom content uploads"""
-    if not request.user.is_staff:
-        return redirect('home')
-    
     if request.method == 'POST':
         # Check which form was submitted
         if 'image_submit' in request.POST:
