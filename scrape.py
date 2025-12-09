@@ -26,6 +26,7 @@ import sys
 from dataclasses import dataclass, asdict, field
 from typing import List, Optional
 import time
+import schedule
 
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
@@ -227,3 +228,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def job():
+    main()
+
+schedule.every(15).minutes.do(job)
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
