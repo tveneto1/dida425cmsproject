@@ -225,29 +225,5 @@ def main():
 
     print(f"Wrote {len(announcements)} announcements to {args.output}")
 
-def auto_run(interval_minutes: int, url: str, output: str, pretty: bool = False):
-    """Automatically run the scraper every N minutes, forever."""
-    interval_seconds = interval_minutes * 60
-    print(f"[auto] Running scraper every {interval_minutes} minutes forever...\n")
-
-    while True:
-        print("[auto] Starting scrape...")
-        try:
-            announcements = scrape_dateline(url)
-            data = [asdict(a) for a in announcements]
-
-            with open(output, "w", encoding="utf-8") as f:
-                if pretty:
-                    json.dump(data, f, ensure_ascii=False, indent=2)
-                else:
-                    json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
-
-            print(f"[auto] Wrote {len(announcements)} announcements to {output}")
-        except Exception as e:
-            print(f"[auto] Error: {e}", file=sys.stderr)
-
-        print(f"[auto] Sleeping {interval_minutes} minutes...\n")
-        time.sleep(interval_seconds
-
 if __name__ == "__main__":
     main()
