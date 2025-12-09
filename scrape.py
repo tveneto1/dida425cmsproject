@@ -231,9 +231,3 @@ if __name__ == "__main__":
 
 def job():
     main()
-
-schedule.every(15).minutes.do(job)
-
-while True:
-    schedule.run_pending()
-    time.sleep(1)
