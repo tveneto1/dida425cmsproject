@@ -71,6 +71,7 @@ Below are the main tutorials and documentation used in the development of this D
 ## HOW IT WORKS (DOCUMENTATION) 
 
 ### Download / Access
+To download CMS425, start by cloning the project’s GitHub repository and ensuring that Django and all required dependencies are installed on your device. Once the server is running, the CMS can be accessed through any web browser using the project’s URL. When connecting to the Raspberry Pi, users must first be signed into the Tailscale VPN, as the Raspberry Pi is only reachable through its Tailscale network address. If accessing the Raspberry Pi’s files from a Mac, users can also open Finder, press Command + K, and enter the Pi’s Tailscale URL to connect. This provides an easy way to locate the device and verify that the server is available.
 
 ### User Permissions and Accounts
 CMS425 includes two different types of users, each with different permissions. A **standard user** can upload content, delete content, and test the slideshow capabilities. An **admin user** can do these actions as well, but they also have the ability to **create** users, **upgrade** a standard user to admin status, or **downgrade** an admin user to standard. Dealing with the other user permissions is the key difference between admin users and standard users.
