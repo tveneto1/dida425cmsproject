@@ -101,11 +101,11 @@ Beneath the table, there is a **create user** button, which goes to a sign up bo
 
 _**IMPORTANT TO NOTE:**_ when a user is created, it only has **standard permissions**. If this new user needs admin capabilities, it must then be **upgraded**.
 
-A **password change/reset** can happen if a user is logged in or not. If the user is logged in, one can find that option in the hamburger dropdown menu. It is also available on the log in page. After pressing either button, the user will be prompted to input the email address associated with that account, in order to recieve an email with a reset link. Follow the steps in the email, and once the password is reset, the user can log in with their new password.
+A **password change/reset** can happen if a user is logged in or not. If the user is logged in, one can find that option in the hamburger dropdown menu. It is also available on the log in page. After pressing either button, the user will be prompted to input the email address associated with that account, in order to receive an email with a reset link. Follow the steps in the email, and once the password is reset, the user can log in with their new password.
 
 
 ### Home Screen
-Once the user is logged in, they are brought to the CMS425 home screen. The user can access all the functions of the website from here, the most important being the three square buttons in the center of the screen: **Upload Content**, **Manage Slides**, and **Start Display**. The footer includes the yeaar of publication, as well as a link to this GitHub (About CMS425).
+Once the user is logged in, they are brought to the CMS425 home screen. The user can access all the functions of the website from here, the most important being the three square buttons in the center of the screen: **Upload Content**, **Manage Slides**, and **Start Display**. The footer includes the year of publication, as well as a link to this GitHub (About CMS425).
 
 
 ### Upload Content 
