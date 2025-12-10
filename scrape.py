@@ -20,15 +20,14 @@ Notes:
   which is captured separately.
 """
 
-import argparse
+# import argparse
 import json
 import sys
 from dataclasses import dataclass, asdict, field
 from typing import List, Optional
-import time
-import schedule
-
 import requests
+import re
+import schedule
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 
@@ -56,6 +55,7 @@ class Announcement:
 
 
 def get_text_clean(node: Tag) -> str:
+    import re
     """Extract readable text with reasonable whitespace normalization."""
     text = node.get_text(separator="\n", strip=True)
     # Collapse excessive blank lines
@@ -76,15 +76,17 @@ def extract_links(node: Tag) -> List[str]:
 
 
 def scrape_dateline(url: str = DEFAULT_URL) -> List[Announcement]:
+    import re
+
     resp = requests.get(url, headers=HEADERS, timeout=30)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
     # Heuristic: Work inside the main content area.
     # Try common containers first; fall back to the whole document if not found.
-    main = soup.find("main")
-    if not main:
-        main = soup.find("div", {"id": "content"}) or soup
+    mainb = soup.find("main")
+    if not mainb:
+        mainb = soup.find("div", {"id": "content"}) or soup
 
     announcements: List[Announcement] = []
 
@@ -94,7 +96,7 @@ def scrape_dateline(url: str = DEFAULT_URL) -> List[Announcement]:
     # We iterate over top-level elements inside the main content in order.
     # Categories appear as <h3> (e.g., "Administrative"), while "For More Information" is also <h3>.
     # Announcement titles appear as <h2>.
-    content_children = [c for c in main.descendants if isinstance(c, Tag) and c.name in {"h2", "h3", "p", "ul", "ol", "div", "section"}]
+    content_children = [c for c in mainb.descendants if isinstance(c, Tag) and c.name in {"h2", "h3", "p", "ul", "ol", "div", "section"}]
 
     i = 0
     while i < len(content_children):
@@ -200,14 +202,16 @@ def scrape_dateline(url: str = DEFAULT_URL) -> List[Announcement]:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Scrape Binghamton Dateline announcements into JSON.")
-    parser.add_argument("-u", "--url", default=DEFAULT_URL, help="Announcements page URL")
-    parser.add_argument("-o", "--output", default="dateline_announcements.json", help="Output JSON path")
-    parser.add_argument("--pretty", action="store_true", help="Pretty-print JSON")
-    args = parser.parse_args()
+    print("in main")
+    # parser = argparse.ArgumentParser(description="Scrape Binghamton Dateline announcements into JSON.")
+    # parser.add_argument("-u", "--url", default=DEFAULT_URL, help="Announcements page URL")
+    # parser.add_argument("-o", "--output", default="dateline_announcements.json", help="Output JSON path")
+    # parser.add_argument("--pretty", action="store_true", help="Pretty-print JSON")
+    # args = parser.parse_args()
 
+    url="https://www.binghamton.edu/apps/messaging/announcement/?source=dateline"
     try:
-        announcements = scrape_dateline(args.url)
+        announcements = scrape_dateline(url)
     except requests.RequestException as e:
         print(f"[error] Network/HTTP problem: {e}", file=sys.stderr)
         sys.exit(1)
@@ -218,13 +222,21 @@ def main():
     # Convert dataclasses to dicts for JSON serialization
     data = [asdict(a) for a in announcements]
 
-    with open(args.output, "w", encoding="utf-8") as f:
-        if args.pretty:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        else:
-            json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+    with open("cms425veneto/templates/dateline_announcements.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+        # if args.pretty:
+        #     json.dump(data, f, ensure_ascii=False, indent=2)
+            
+        # else:
+        #     json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
-    print(f"Wrote {len(announcements)} announcements to {args.output}")
+    print(f"Wrote {len(announcements)} announcements to cms425veneto/templates/dateline_announcements.json")
+
+    get_text_clean()
+    extract_links()
+    scrape_dateline()
+
+
 
 if __name__ == "__main__":
     main()
