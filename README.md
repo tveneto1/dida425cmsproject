@@ -51,27 +51,44 @@ Below are the main tutorials and documentation used in the development of this D
 ### Django Setup & Environment
 - [Django CMS Installation Guide](https://docs.django-cms.org/en/latest/introduction/01-install.html)
 - [General Django Tutorials – W3Schools](https://www.w3schools.com/django/index.php)
-- [Django in Visual Studio Code Tutorial – Microsoft Docs](https://code.visualstudio.com/docs/python/tutorial-django)
+- [Django in Visual Studio Code Tutorial](https://code.visualstudio.com/docs/python/tutorial-django)
 - [Official Django Documentation (v5.2)](https://docs.djangoproject.com/en/5.2/)
-- [Creating a Django Project in VS Code – YouTube](https://www.youtube.com/watch?v=U8Ak8iqjFxQ)
+- [Creating a Django Project in VS Code](https://www.youtube.com/watch?v=U8Ak8iqjFxQ)
+- [url - Django Template Tag](https://www.geeksforgeeks.org/python/url-django-template-tag/)
 
-### Image Upload & Admin Features
-- [Uploading Images in Django – GeeksforGeeks](https://www.geeksforgeeks.org/python/python-uploading-images-in-django/)
-- [Uploading Images to Django Server – YouTube](https://www.youtube.com/watch?v=GNsuF4xB80E)
+### Image Upload & Slideshow Display
+- [Uploading Images in Django](https://www.geeksforgeeks.org/python/python-uploading-images-in-django/)
+- [Uploading Images to Django Server](https://www.youtube.com/watch?v=GNsuF4xB80E)
 - [Deleting Uploaded Files - Django File Upload Tutorial - Part 4](https://www.youtube.com/watch?v=roYopMO4Eo8&list=PLLxk3TkuAYnpm24Ma1XenNeq1oxxRcYFT&index=3)
 - [Django Media Files - Restricting Uploadable File Types with Validators and python-magic](https://www.youtube.com/watch?v=UcUm82jWeKc)
-- [Creating and Customizing Admin Pages – Django Docs](https://docs.djangoproject.com/en/5.2/ref/contrib/admin/)
+- [python-magic 0.4.27](https://pypi.org/project/python-magic/)
+- [About Saving PDF Previews](https://www.djangotricks.com/tricks/4AiKVoFrEkmv/)
+- [In Django How to Convert An Uploaded PDF...](https://stackoverflow.com/questions/66069902/in-django-how-to-convert-an-uploaded-pdf-file-to-an-image-file-and-save-to-the-c)
+- [Model (PDF to Image)](https://forum.djangoproject.com/t/model-pdf-to-image/8076)
+- [pdf2image Official Documentation](https://pdf2image.readthedocs.io/en/latest/installation.html)
+- [Fetch](https://happycoding.io/tutorials/javascript/fetch#json)
+- [How to Manage Static Files](https://docs.djangoproject.com/en/5.2/howto/static-files/)
+- [Leaflet-Providers (OpenStreetMap.HOT)](https://leaflet-extras.github.io/leaflet-providers/preview/#filter=OpenStreetMap.HOT)
 
-### User Authentication & Permissions
+### User Authentication, Permissions, and Interaction
 - [Django Authentication and Permissions – MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Authentication)  
+- [Creating and Customizing Admin Pages – Django Docs](https://docs.djangoproject.com/en/5.2/ref/contrib/admin/)
+- [How to Override and Extend Basic Django Admin Templates](https://www.geeksforgeeks.org/python/how-to-override-and-extend-basic-django-admin-templates/)
 - [Django Login, Logout, and Signup Tutorial – LearnDjango](https://learndjango.com/tutorials/django-login-and-logout-tutorial)
-
+- [How to Add Fields to Registration Form - Django Blog #20](https://www.youtube.com/watch?v=TBGRYkzXiTg)
+- [Django_010: Simple Login and Logout with Built-In Authentication](https://medium.com/@staytechrich/django-010-simple-login-and-logout-with-built-in-authentication-5521353015af)
+- [Django Password Reset Tutorial](https://www.youtube.com/watch?v=ZR8Ymkx30p0)
+- [How To - Hoverable Dropdown](https://www.w3schools.com/howto/howto_css_dropdown.asp)
 
 
 ## HOW IT WORKS (DOCUMENTATION) 
 
 ### Download / Access
 To download CMS425, start by cloning the project’s GitHub repository and ensuring that Django and all required dependencies are installed on your device. Once the server is running, the CMS can be accessed through any web browser using the project’s URL. When connecting to the Raspberry Pi, users must first be signed into the Tailscale VPN, as the Raspberry Pi is only reachable through its Tailscale network address. If accessing the Raspberry Pi’s files from a Mac, users can also open Finder, press Command + K, and enter the Pi’s Tailscale URL to connect. This provides an easy way to locate the device and verify that the server is available.
+
+Alternatively, download this repository as a .zip file, and extract all files where the .zip files downloads to on the personal device. This should create a folder with all the necessary project files. Open that extracted folder in any preferred code editing platform (note: this documentation will use Visual Studio Code as the preferred platform). In order to run the project in a web browser, first open the terminal. In Visual Studio Code, this is done by going to the three dots at the top, selecting _Terminal_, and finally _Create New Terminal_. [Pip install Django](https://docs.djangoproject.com/en/5.2/topics/install/) within that terminal using the proper command based on the operating system of the personal device; the commands are found at the hyperlink to the official Django documentation. Once Django is installed, stay in the terminal and run the command **`python manage.py runserver 8002`**. Follow the link starting with **`127.0.0.1`** that generates as part of the output. If an issue with port connection arises, change the number at the end of the **`runserver`** command to a port that is not in use.
+
+After following these steps, CMS425 is now accessible within the web browser. If the connection breaks, simply run **`python manage.py runserver`** again in the terminal with the selected port number at the end.
 
 ### User Permissions and Accounts
 CMS425 includes two different types of users, each with different permissions. A **standard user** can upload content, delete content, and test the slideshow capabilities. An **admin user** can do these actions as well, but they also have the ability to **create** users, **upgrade** a standard user to admin status, or **downgrade** an admin user to standard. Dealing with the other user permissions is the key difference between admin users and standard users.
